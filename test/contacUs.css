@@ -1,0 +1,133 @@
+#contact-header{
+    background-image: url('contact-us-cover.jpeg');
+    height:100vh;
+    background-size: cover;
+}
+
+.center-heading .center-h{
+    color:#ffffff;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(3.5);
+}
+
+.testimonials .testimonials-h{
+    text-align:center;
+
+}
+.testimonials .testimonials-p{
+    text-align:center;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+
+}
+.col-1{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#testimonials{
+    margin-top:25px;
+}
+.testimonials{
+    background:url('testimonials2.jpg');
+    background-position: center;
+    height:300px;
+    width:100%;
+    border-radius:25px;
+}
+.testimonials-content{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.testimonials-h{
+    margin-bottom:20px;
+    color:white;
+    font-size:36px;
+}
+.testimonials-p{
+   color:#ffffff;
+   font-size: 17px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.checked{
+    color:orange;
+}
+.unchecked{
+    color:grey;
+}
+.rating{
+    margin-bottom: 10px;
+}
+#feedback{
+    margin-top:35px;
+   
+}
+.feedback{
+    text-align: center;
+}
+
+textarea{
+    min-width:1200px;
+    height:250px;
+    border:1px solid #000;
+    border-radius: 30px;
+    
+}
+
+.feedback-h{
+    margin-bottom: 10px;
+    font-size:26px;
+}
+.feedback-p{
+    margin-bottom: 10px;
+}
+
+.feedback{
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.3);
+    padding:30px 60px;
+    border-radius: 30px;
+    width:88%;
+    margin-bottom: 40px;
+}
+.textbox-style{
+    float:left;
+    padding:10px 14px;
+    border:2px solid #000;
+    border-radius: 20px;
+    width:250px;
+}
+.text-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px;
+}
+.submit-btn{
+   
+    text-align:center;
+    padding:9px 5px;
+    width:120px;
+    border:2px solid #056271;
+    background:#056271;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top:20px;
+}
+
+
+iframe{
+    width:95%;
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
