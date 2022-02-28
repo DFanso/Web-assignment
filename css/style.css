@@ -70,7 +70,7 @@ body{
 }
 
 #home-cover{
-    background-image: url("Images/home.jpg");
+    background-image: url("/Images/home.jpg");
     background-color:rgb(40,58,44);
     height:100vh;
     background-size:cover;
@@ -222,8 +222,14 @@ body{
     
 }
 
+.PostImp .Post-h {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
 .PostImp .Post-p{
-   font-size:17px;
+   font-size:15.5px;
    text-align:center;
    color:white;
 }
@@ -363,36 +369,36 @@ body{
 }
 
 .slide__img--1 {
-    background-image: url("images/Rectangle10.png");
+    background-image: url("/images/Rectangle10.png");
 }
 
 .slide__img--2 {
-    background-image: url("images/Rectangle11.png");
+    background-image: url("/images/Rectangle11.png");
 }
 
 .slide__img--3 {
-    background-image: url("images/Rectangle12.png");
+    background-image: url("/images/Rectangle17.jpeg");
 }
 
 .slide__img--4 {
-    background-image: url("images/Rectangle13.png");
+    background-image: url("/images/Rectangle13.png");
 }
 
 .slide__img--5 {
-    background-image: url("images/Rectangle14.png");
+    background-image: url("/images/Rectangle14.png");
 }
 
 .slide__img--6 {
-    background-image: url("images/Rectangle15.png");
+    background-image: url("/images/Rectangle15.png");
 }
 
 .slide__img--7 {
-    background-image: url("images/Rectangle16.png");
+    background-image: url("/images/Rectangle16.png");
 }
 
 .img-content {
   position: relative;
-  top:80%;
+  top:75%;
   left:50%;
   transform:translate(-50%,-50%);
   text-align:left;
@@ -666,7 +672,7 @@ body{
 /*--------------------------------------About page start------------------------------*/
 
 #AUhome-cover{
-    background-image: url("images/aboutbg.png");
+    background-image: url("/Images/aboutbg.png");
     background-color:rgb(40,58,44);
     padding-bottom: 50%;
     background-size:cover;
@@ -743,7 +749,7 @@ body{
     width: 30%;
     padding-bottom:30%;
     margin-left: 2%;
-    background: url("images/about1.png");
+    background: url("/Images/about1.png");
     background-repeat: no-repeat;  
 }
 .box-text-container-2{
@@ -751,7 +757,7 @@ body{
     width: 30%;
     padding-bottom:30%;
     margin-left: 2%;
-    background: url("images/about2.png");
+    background: url("/Images/about2.png");
     background-repeat: no-repeat;  
 }
 .box-text-container-3{
@@ -759,7 +765,7 @@ body{
     width: 30%;
     padding-bottom:30%;
     margin-left: 2%;
-    background: url("images/about3.png");
+    background: url("/Images/about3.png");
     background-repeat: no-repeat;  
 }
 .box-text{
@@ -791,14 +797,14 @@ body{
     padding-bottom: 15%;
     margin-top: 5%;
     margin-left: 10%;
-    background: url("images/Health Container.png");
+    background: url("/Images/Health Container.png");
     background-repeat: no-repeat;
     border-radius: 50px;
 }
 .vision-container{
     width :80%;
     margin-left: 10%;
-    background: url("images/VisionContainor.png");
+    background: url("/Images/VisionContainor.png");
     padding-bottom: 10%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -807,7 +813,7 @@ body{
 .mission-container{
     width :80%;
     margin-left: 10%;
-    background: url("images/MissionContainor.png");
+    background: url("/Images/MissionContainor.png");
     padding-bottom: 10%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -837,7 +843,7 @@ body{
 
 
 #contact-header{
-    background-image: url('images/contact-us-cover.jpeg');
+    background-image: url('/Images/contact-us-cover.jpeg');
     height:100vh;
     background-size: cover;
 }
@@ -981,7 +987,7 @@ iframe{
 
 /*--------------------------------------Services page---------------------------------------------------*/
 .SHomeCover{
-    background-image: url("images/beach.jpg");
+    background-image: url("/Images/beach.jpg");
     background-color:rgb(40,58,44);
     height:100vh;
     background-size:cover;
@@ -1050,7 +1056,7 @@ iframe{
 }
 .familyVacationPackage{
     /* service1 */
-    background-image: url("images/services1.png");
+    background-image: url("/Images/services1.png");
     background-repeat: no-repeat;
     width:30%;
     height: 550px;
@@ -1061,7 +1067,7 @@ iframe{
 
 .privateTravelPackage{
     /* service3 */
-    background-image:url("images/services3.png");
+    background-image:url("/Images/services3.png");
     background-repeat: no-repeat;
     width: 30%;
     height:300px;
@@ -1071,7 +1077,7 @@ iframe{
 
 .friendsVacationPackage{
     /* service1 */
-    background-image:url("images/services1.png");
+    background-image:url("/Images/services1.png");
     background-repeat: no-repeat;
     width:30%;
     height: 550px;
@@ -1083,7 +1089,7 @@ iframe{
     position: absolute;
     margin-left: 30%;
     margin-top: 23%;
-    background-image:url("images/services2.png");
+    background-image:url("/Images/services2.png");
     background-repeat: no-repeat;
     width:30%;
     height: 550px;
@@ -1242,7 +1248,7 @@ body {
 }
 
 .familyVacationPageCover{
-    background-image: url("images/image11.png");
+    background-image: url("/Images/image11.png");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1254,7 +1260,7 @@ body {
     margin: 5%;
     margin-left: 10%;
     border-radius: 70px;
-    background-image: url("images/Family.png");
+    background-image: url("/Images/Family.png");
     background-repeat: no-repeat;
     background-size: auto;
     /* background-color: red; */
@@ -1274,7 +1280,7 @@ body {
 /* Login-page */
 
 #loginCover{
-    background-image: url("images/SignUp.png");
+    background-image: url("/Images/SignUp.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1329,7 +1335,7 @@ body {
 /*--------------------------------------Search-result page---------------------------------------------------*/
 
 #search-resultCover{
-    background-image: url("images/searchResult.png");
+    background-image: url("/Images/searchResult.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1372,7 +1378,7 @@ body {
 /*--------------------------------------Packages page---------------------------------------------------*/
 
 #packagesCover {
-    background-image: url("images/packages1.jpeg");
+    background-image: url("/Images/packages1.jpeg");
     background-color: rgb(40, 58, 44);
     padding-bottom: 53.5%;
     background-size:cover;
@@ -1409,7 +1415,7 @@ body {
 }
 
 #pImageContainer{
-    background: url("images/packages2.png");
+    background: url("/Images/packages2.png");
     position: absolute;
     width: 50%;
     height: 100%;
@@ -1512,14 +1518,14 @@ body {
     font-size: 15px;
     color: #000000;
     padding-left: 0;
-    list-style-image: url("images/packagesArrow.png");
+    list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedList{
     text-align: center;
     font-size: 15px;
     color: #000000;
-    list-style-image: url("images/packagesArrow.png");
+    list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2{
@@ -1599,3 +1605,44 @@ body {
 }
 
 /*--------------------------------------End of Packages page---------------------------------------------------*/
+
+/* -------------------------------------newAbout.html Page----------------------------------------------------- */
+.whatMakesUsExceptional-Container{
+    width: 100%;
+    height: 50em;
+    background-color: #283A2C;
+    color: white;
+}
+.whatMakesUsExceptional-Container h2{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 6em;
+}
+.whatMakesUsExceptional-Container p{
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 11em;
+    padding-right: 12em;
+    font-size: 1.5em; 
+}
+.whatMakesUsExceptional-Container h3{
+    text-align: center;
+    padding-top:1em;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.latest-Container{
+    width: 100%;
+    height: 28em;
+    display: flex;
+    flex: wrap;
+}
+.latest-item{
+    margin: 1em;
+    padding-left: 5em;
+    text-align: center;
+}
+.latest-item p{
+    text-align: center;
+    margin-top: 1em;
+}
