@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +10,6 @@
     width: 90%;
     margin: 40px auto;
     text-align: center;
-  }
-  button {
-    margin: 20px;
   }
   .custom-btn {
     width: 130px;
@@ -32,7 +31,7 @@
   }
   
   .glow-on-hover {
-    background: #b621fe;
+    background: black;
     border: none;
     z-index: 1;
   }
@@ -44,7 +43,7 @@
     top: 0;
     right: 0;
     z-index: -1;
-    background-color: #663dff;
+    background-color: gray;
     border-radius: 5px;
      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
@@ -99,8 +98,85 @@
   
   
 /* Social Media Icons */
+.button {
+    float: left;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 2.5em;
+    left: 6.5em;
+    margin-right: 5px;
+}
 
+.button span {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 60px;
+	margin-left: 10px;
+}
 
+.button:hover {
+	width: 200px;
+}
+
+.button:nth-child(1):hover .icon {
+	background: #e1306c;
+}
+
+.button:nth-child(2):hover .icon {
+	background: #4267b2;
+}
+
+.button:nth-child(3):hover .icon {
+	background: #1da1f2;
+}
+
+.button:nth-child(4):hover .icon {
+	background: #ff0000;
+}
+
+.button:nth-child(1) span {
+	color: #e1306c;
+}
+
+.button:nth-child(2) span {
+	color: #4267b2;
+}
+
+.button:nth-child(3) span {
+	color: #1da1f2;
+}
+
+.button:nth-child(4) span {
+	color: #ff0000;
+}
+
+.button .icon {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 50px;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+}
+
+.button .icon i {
+	font-size: 25px;
+	line-height: 60px;
+	transition: all 0.3s ease-in-out;
+}
+
+.button:hover i {
+	color: #fff;
+}
+
+/* Social Media Icons End */
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -300,13 +376,19 @@ body{
     
 }
 .about-why-choose-us{
-    font-size: 17px;
+    font-size: 16px;
     width:30%;
-    margin-top: -10%;
+    margin-top: -16%;
     position: absolute;
     left: 68%;
     color: white;
     z-index: 99;
+}
+#indexHeading{
+    font-size: 20px;
+}
+.iFacts{
+    font-size: 15px;
 }
 .Elephant{
     position: absolute;
@@ -514,7 +596,8 @@ body{
   }
 
   .col-4{
-      width:25%;
+      margin-left:-30px;
+      width:30%;
       text-align:center;
       align-items: center;
       justify-content:center;
@@ -1096,29 +1179,33 @@ iframe{
     margin-left: 3%;
     display: flex;
     column-gap: 20px;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 .familyVacationPackage{
     /* service1 */
-    background-image: url("/Images/services1.png");
+    background-image: url("/Images/family1.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    width:30%;
-    height: 550px;
-    border-radius: 40px;
+    width:30em;
+    height: 48em;
     z-index: 1;
 }
 .familyVacationPackage p{
-    text-align: center;
-    margin-top: 110%;
-    margin-bottom: 5%;
     color: white;
     font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 16em;
 }
 .privateTravelPackage{
     /* service3 */
-    background-image:url("/Images/services3.png");
+    background-image:url("/Images/privATE.png");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
-    height:300px;
+    height:25em;
     border-radius: 40px;
     z-index: 2;
 }
@@ -1131,11 +1218,11 @@ iframe{
 }
 .friendsVacationPackage{
     /* service1 */
-    background-image:url("/Images/services1.png");
+    background-image:url("/Images/friends.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    width:30%;
-    height: 550px;
-    border-radius: 40px;
+    width:30em;
+    height: 48em;
     z-index: 1;
 }
 .friendsVacationPackage p{
@@ -1147,12 +1234,12 @@ iframe{
 }
 .coupleVacationPackage{
     position: absolute;
-    margin-left: 30%;
     margin-top: 25%;
-    background-image:url("/Images/services2.png");
+    background-image:url("/Images/couple.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    width:30%;
-    height: 550px;
+    width:30em;
+    height: 48em;
     border-radius: 40px;
     z-index: 1;
 }
@@ -1565,10 +1652,9 @@ body {
 }
 
 #pImageContainer{
-    background: url("/Images/packages2.png");
     position: absolute;
     width: 50%;
-    height: 100%;
+    height: 100em;
     left: 2%;
     top: 140%;
     border-radius: 20px;
@@ -1579,16 +1665,16 @@ body {
     width: 35%;
     height: 100%;
     right: 10%;
-    top: 140%;
+    top: 120%;
     border-radius: 20px;
 }
 
 #pDesCaption{
-    margin-top: 5%;
+    margin-top: 0%;
     text-align: right;
     font-size: 18px;
     color: white;
-    padding: 15%;
+    padding: 13%;
     margin-bottom: 5%;
 }
 
@@ -1597,7 +1683,7 @@ body {
     width: 30%;
     height: 55%;
     left: 15%;
-    top: 250%;
+    top: 220%;
     border-radius: 10px;
 }
 
@@ -1680,7 +1766,6 @@ body {
 
 #pContainer2{
     width:100%;
-    padding-bottom: 60%;
     background-color: #ffffff;
 }
 
@@ -1805,7 +1890,7 @@ body {
     margin-top: 1em;
 }
 .newAbout{
-    width: 100%;
+    width: auto;
     height: 300%;
     border-radius: 5%;
 }
@@ -1954,3 +2039,1390 @@ body {
     left: 8em;
 
 }
+
+/*--------------------------------------Eiffel Tower page---------------------------------------------------*/
+
+#packagesCoverEiffel {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionEiffel {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Eiffel {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionEiffel {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerEiffel {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerEiffel {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionEiffel {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerEiffel {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 230%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionEiffel {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrEiffel {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerEiffel {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerEiffel {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 230%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionEiffel {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Eiffel {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerEiffel {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListEiffel {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListEiffel {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Eiffel {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Eiffel {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Eiffel {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 350%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Eiffel {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 403%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Eiffel {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 350%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Eiffel {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 385%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Eiffel {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 438%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Eiffel {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 350%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Eiffel {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Eiffel Tower page---------------------------------------------------*/
+
+/*--------------------------------------Great Wall of China page---------------------------------------------------*/
+
+#packagesCoverChina {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionChina {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1China {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionChina {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerChina {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerChina {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionChina {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerChina {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 230%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionChina {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrChina {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerChina {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerChina {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 230%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionChina {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2China {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerChina {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListChina {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListChina {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2China {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2China {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1China {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 320%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2China {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 375%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3China {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 320%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4China {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 360%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5China {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 410%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6China {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 320%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7China {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 403%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Great Wall of China page---------------------------------------------------*/
+
+/*--------------------------------------Tower of Pisa page---------------------------------------------------*/
+
+#packagesCoverPisa {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionPisa {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Pisa {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionPisa {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerPisa {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerPisa {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionPisa {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerPisa {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionPisa {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrPisa {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerPisa {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerPisa {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionPisa {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Pisa {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerPisa {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListPisa {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListPisa {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Pisa {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Pisa {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Pisa {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Pisa {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Pisa {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Pisa {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Pisa {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Pisa {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Pisa {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Tower of Pisa page---------------------------------------------------*/
+
+/*--------------------------------------Colombo page---------------------------------------------------*/
+
+#packagesCoverColombo {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionColombo {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Colombo {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionColombo {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerColombo {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerColombo {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionColombo {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerColombo {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionColombo{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrColombo {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerColombo {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerColombo {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionColombo {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Colombo {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerColombo {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListColombo {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListColombo {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Colombo {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Colombo {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Colombo {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Colombo {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Colombo {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Colombo {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Colombo {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Colombo {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Colombo {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Colombo page---------------------------------------------------*/
+
+/*--------------------------------------Kandalama page---------------------------------------------------*/
+
+#packagesCoverKandalama {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionKandalama {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Kandalama {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionKandalama {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerKandalama {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerKandalama {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionKandalama {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerKandalama {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionKandalama {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrKandalama {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerKandalama {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerKandalama {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionKandalama {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Kandalama {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerKandalama {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListKandalama {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListKandalama {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Kandalama {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Kandalama {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Kandalama {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Kandalama {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Kandalama {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Kandalama {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Kandalama {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Kandalama {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Kandalama {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Kandalama page---------------------------------------------------*/
+
+/*--------------------------------------Sigiriya page---------------------------------------------------*/
+
+#packagesCoverSigiriya {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionSigiriya {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Sigiriya {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionSigiriya {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerSigiriya {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerSigiriya {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionSigiriya {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerSigiriya {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionSigiriya {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrSigiriya {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerSigiriya {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerSigiriya {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionSigiriya {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Sigiriya {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerSigiriya {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListSigiriya {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListSigiriya {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Sigiriya {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Sigiriya {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Sigiriya {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Sigiriya {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Sigiriya {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Sigiriya {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Sigiriya {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Sigiriya {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Sigiriya {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Sigiriya page---------------------------------------------------*/
