@@ -4,10 +4,23 @@
   
 }
 /* Social Media Icons */
+.wrapper{
+    width: 550px;
+    height: 60px;
+    display: flex;
+    flex: wrap;
+    position: relative;
+    top: -5em;
+    left: 55em;
+
+}
 .button {
-	float: left;
+	position: relative;
+    top: 80;
+    right: 150;
 	width: 60px;
 	height: 60px;
+    margin-right: 10px;
 	cursor: pointer;
 	background: #fff;
 	overflow: hidden;
@@ -562,8 +575,9 @@ body{
         flex-direction:row;
         flex-wrap:wrap;
         width:100%;
-        
-    
+  }
+  .footer-link-p{
+      margin-left: 1.8em;
   }
 
   .col-4{
@@ -824,6 +838,7 @@ body{
     line-height: 29px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .about-gr-container{
@@ -1825,4 +1840,27 @@ body {
     padding-left: 1em;
     padding-right: 1em;
     
+}
+/* -------------------------------------------Dashboard Page------------------------------------------------------- */
+#dashboard-cover{
+    background-image: url("/Images/dashboard-cover-min.jpg");
+    width: 100%;
+    height:95vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#bodyColor{
+    background-color: #272D43;
+}
+.dashboard-row{
+    display: flex;
+    flex: wrap;
+}
+.dashboard-item{
+    width: 40%;
+    height: 27em;
+    background-color: #0F143C;
+    border-radius: 50px;
+    margin-top: 2em;
+    margin-left: 2em;
 }
