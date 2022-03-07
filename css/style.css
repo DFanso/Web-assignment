@@ -226,6 +226,7 @@ body{
 }*/
 .text-input{
     padding:9px 15px;
+    width:400px;
     border-radius: 10px;
     border:none;
     margin-right:10px;
@@ -234,7 +235,7 @@ body{
 .submit-btn{
     border-radius: 25px;
     padding:9px 35px;
-    background-color:#056271;
+    background-color:#a0a0a0;
     border:none;
     color:#fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -1191,20 +1192,39 @@ iframe{
     margin-bottom:5%;
 
 }
-.guiders-col-4{
-    width:25%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin:0%;
-}
 .guiders-col-1 {
     width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0%;
     margin-left: 0%;
-    padding: 0%;
+}
+.guiders-col-2 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.guiders-col-3 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.guiders-col-4 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-right: 5%;
 }
 /* .circle-guid{
     margin:0%;
@@ -1219,8 +1239,8 @@ iframe{
 .circle-guid1{
     margin:0%;
     /* background-color: #f8f6f6; */
-    width: 60%;
-    height: 80%;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* display:flex; */
     align-items: center;
@@ -1229,8 +1249,8 @@ iframe{
 .circle-guid2 {
     margin: 0%;
     /* background-color: #f8f6f6; */
-    width: 60%;
-    height: 80%;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* display:flex; */
     align-items: center;
@@ -1239,8 +1259,8 @@ iframe{
 .circle-guid3 {
     margin: 0%;
     /* background-color: #f8f6f6; */
-    width: 60%;
-    height: 80%;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* display:flex; */
     /* align-items: center; */
@@ -1249,16 +1269,16 @@ iframe{
 .circle-guid4 {
     margin: 0%;
     /* background-color: #f8f6f6; */
-    width: 60%;
-    height: 80%;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* display:flex; */
     align-items: center;
     justify-content: center;
 }
 .profilePic {
-    width: 90%;
-    height: 90%;
+    width: auto;
+    height: auto;
     border-radius: 55%;
 }
 
