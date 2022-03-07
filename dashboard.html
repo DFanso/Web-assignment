@@ -22,8 +22,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ce94ec57a.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>Dashboard</title>
 </head>
@@ -53,9 +52,20 @@
     <section>
         <div class="dashboard-row">
             <div class="dashboard-item">
-                <span class="material-icons-outlined">
-                    add_circle
-                    </span>
+                <img src="/Images/outline_add_circle_white_48dp.png" alt="add icon">
+                <h2>Add Pages</h2>
+                <form method="post">
+                    <input type="file">
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="dashboard-item">
+                <img src="/Images/outline_remove_circle_white_48dp.png" alt="add icon">
+                <h2>Remove Pages</h2>
+                <form method="post">
+                    <input type="text" name="removeName"><br>
+                    <button>Remove</button>
+                </form>
             </div>
         </div>
     </section>

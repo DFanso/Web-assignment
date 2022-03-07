@@ -578,6 +578,7 @@ body{
   }
   .footer-link-p{
       margin-left: 1.8em;
+      margin-top: 5%;
   }
 
   .col-4{
@@ -1136,6 +1137,7 @@ iframe{
     display:flex;
     align-items:center;
     justify-content: center;
+    text-align: center;
 }
 
 .plane{
@@ -1169,9 +1171,14 @@ iframe{
     height: 550px;
     border-radius: 40px;
     z-index: 1;
-    
 }
-
+.familyVacationPackage p{
+    text-align: center;
+    margin-top: 110%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 35px;
+}
 .privateTravelPackage{
     /* service3 */
     background-image:url("/Images/services3.png");
@@ -1181,7 +1188,13 @@ iframe{
     border-radius: 40px;
     z-index: 2;
 }
-
+.privateTravelPackage p {
+    text-align: center;
+    margin-top: 45%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 35px;
+}
 .friendsVacationPackage{
     /* service1 */
     background-image:url("/Images/services1.png");
@@ -1191,7 +1204,13 @@ iframe{
     border-radius: 40px;
     z-index: 1;
 }
-
+.friendsVacationPackage p{
+    text-align: center;
+    margin-top: 110%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 35px;
+}
 .coupleVacationPackage{
     position: absolute;
     margin-left: 30%;
@@ -1203,7 +1222,13 @@ iframe{
     border-radius: 40px;
     z-index: 1;
 }
-
+.coupleVacationPackage p{
+    text-align: center;
+    margin-top: 105%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 35px;
+}
 
 /*
 .customers{
@@ -1759,13 +1784,20 @@ body {
     justify-content: center;
 }
 .latest-item{
-    margin: 1em;
+    width: 30%;
+    height:30%;
+    margin: 2em;
     padding-left: 2em;
     text-align: center;
 }
 .latest-item p{
     text-align: center;
     margin-top: 1em;
+}
+.newAbout{
+    width: 100%;
+    height: 300%;
+    border-radius: 5%;
 }
 .othersRow{
     display: flex;
@@ -1855,6 +1887,8 @@ body {
 .dashboard-row{
     display: flex;
     flex: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 .dashboard-item{
     width: 40%;
@@ -1863,4 +1897,50 @@ body {
     border-radius: 50px;
     margin-top: 2em;
     margin-left: 2em;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.dashboard-item img{
+    position: relative;
+    top: 4em;
+    left: 17em;
+}
+.dashboard-item h2{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: 2.1em;
+}
+.dashboard-item input{
+    position: relative;
+    top: 5em;
+    left:9em;
+    padding-top:5px;
+    color: white;
+    font-size: 18px;
+}
+.dashboard-item button{
+    position: relative;
+    top: 7.8em;
+    left: 16em;
+    width: 7em;
+    height:3em;
+    border-radius: 10px;
+    border: none;
+    background-color: #272D43;
+    color: white;
+
+}
+.dashboard-item input[name="removeName"]{
+    border: none;
+    border-radius: 10px;
+    width: 18em;
+    height: 2.8em;
+    position: relative;
+    top: 4em;
+    left
+
 }
