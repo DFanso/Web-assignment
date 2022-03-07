@@ -20,6 +20,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./social-media-icons.css">
 
     <title>Contact Us</title>
 </head>
@@ -128,7 +129,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-1">
-
+                  
                     <div class="feedback">
                         <h3 class="feedback-h">Your feedback means a lot</h3>
                         <p class="feedback-p">Rate your experience</p>
@@ -139,17 +140,24 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star unchecked"></span>
                         </div>
-                        <textarea></textarea><br>
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                        <textarea class="contactmsg" id="message">  </textarea><br>
                         <div class="text-box">
-                        <input class="textbox-style" type="text" name="username" placeholder="Name">
-                        <input class="textbox-style" type="email" name="email" placeholder="Email">
+                        <input class="textbox-style" id="name" type="text" name="username" placeholder="Name" required>
+                        <input class="textbox-style" id="email" type="email" name="email" placeholder="Email" required>
                         </div>
-                        <input class="submit-btn" tye="submit" name="submit" value="Submit">
+                        <button class="submit-btn" type="submit">Send</button>
+                        </form>
                     </div>
+                   
                 </div>
             </div>
         </div>   
     </section>
+
+
+
+
 
     <section id="map">
         <div class="container">
@@ -265,5 +273,30 @@
             </div>
         </div>
     </section>
+    
+
+    <!-- email sending code js -->
+
+    <script>
+     function sendEmail(){
+
+       Email.send({
+       Host : "smtp.gmail.com",
+       Username : "travelexplore647@gmail.com",
+       Password : "password#123",
+       To : 'travelexplore647@gmail.com',
+       From : document.getElementById("email").value,
+       Subject : "New User Feedback",
+       Body : "Name:" + document.getElementById("name").value
+              + "<br> Message: " + document.getElementById("message").value,
+       }).then(
+       message => alert("Message Sent Succesfully")
+       );
+
+     }
+      
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </body>
 </html>
