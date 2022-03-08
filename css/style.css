@@ -3888,3 +3888,234 @@ body {
 }
 
 /*--------------------------------------End of Pinnawala page---------------------------------------------------*/
+
+/*--------------------------------------Salar De Uyuni page---------------------------------------------------*/
+
+#packagesCoverSalar {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionSalar {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Salar {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionSalar {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerSalar {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerSalar {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionSalar {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerSalar {      
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionSalar{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrSalar {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerSalar {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerSalar {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionSalar {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Salar {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerSalar {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListSalar {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListSalar {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Salar {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Salar {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Salar {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Salar {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Salar {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Salar {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Salar {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Salar {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Salar {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Salar De Uyuni page---------------------------------------------------*/
