@@ -3426,3 +3426,234 @@ body {
 }
 
 /*--------------------------------------End of Sigiriya page---------------------------------------------------*/
+
+/*--------------------------------------Mirissa page---------------------------------------------------*/
+
+#packagesCoverMirissa {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionMirissa {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Mirissa {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionMirissa {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerMirissa {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerMirissa {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionMirissa {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerMirissa {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionMirissa{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrMirissa {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerMirissa {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerMirissa {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 240%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionMirissa {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Mirissa {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerMirissa {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListMirissa {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListMirissa {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Mirissa {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Mirissa {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Mirissa {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Mirissa {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Mirissa {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Mirissa {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Mirissa {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Mirissa {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Mirissa {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of Mirissa page---------------------------------------------------*/
