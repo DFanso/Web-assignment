@@ -4119,3 +4119,236 @@ body {
 }
 
 /*--------------------------------------End of Salar De Uyuni page---------------------------------------------------*/
+
+/*--------------------------------------The Great Barrier Reef page---------------------------------------------------*/
+
+#packagesCoverReef {
+    background-image: url("/Images/packages1.jpeg");
+    background-color: rgb(40, 58, 44);
+    padding-bottom: 53.5%;
+    background-size: cover;
+    /*margin-top: 0px;*/
+
+}
+
+.mainCaptionReef {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    top: 216px;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContainer1Reef {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #283A2C;
+}
+
+#pCaptionReef {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 5%;
+}
+
+#pImageContainerReef {
+    position: absolute;
+    width: 50%;
+    height: 100em;
+    left: 2%;
+    top: 140%;
+    border-radius: 20px;
+}
+
+#pDesContainerReef {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 120%;
+    border-radius: 20px;
+}
+
+#pDesCaptionReef {
+    margin-top: 0%;
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+
+#pHighlightsContainerReef {      
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    left: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pHighlightsCaptionReef{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+
+}
+
+#pHrReef {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pHighlightsMiniContainerReef {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    left: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#pIncludedContainerReef {
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    right: 15%;
+    top: 250%;
+    border-radius: 10px;
+}
+
+#pIncludedCaptionReef {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 2.5;
+}
+
+#pHr2Reef {
+    border: 2px solid #FFFFFF;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#pIncludedMiniContainerReef {
+    background-color: #C4C4C4;
+    /*position: absolute;*/
+    width: 100%;
+    height: 52%;
+    right: 5%;
+    /*top: 40%;*/
+    border-radius: 10px;
+    /*padding: 10%;*/
+    opacity: 0.4;
+
+}
+
+#highlightsListReef {
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 13%;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#includedListReef {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15%;
+    color: #000000;
+    list-style-image: url("/Images/packagesArrow.png");
+}
+
+#pContainer2Reef {
+    width: 100%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+}
+
+#pCaption2Reef {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    padding: 5%;
+}
+
+#pGalleryImg1Reef {
+    position: absolute;
+    width: 25%;
+    height: 48%;
+    left: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg2Reef {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 398%;
+    border-radius: 20px;
+}
+
+#pGalleryImg3Reef {
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 38%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg4Reef {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 38%;
+    top: 380%;
+    border-radius: 20px;
+}
+
+#pGalleryImg5Reef {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 38%;
+    top: 433%;
+    border-radius: 20px;
+}
+
+#pGalleryImg6Reef {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    right: 5%;
+    top: 345%;
+    border-radius: 20px;
+}
+
+#pGalleryImg7Reef {
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    right: 5%;
+    top: 427%;
+    border-radius: 20px;
+}
+
+/*--------------------------------------End of The Great Barrier Reef page---------------------------------------------------*/
+
+
