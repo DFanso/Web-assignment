@@ -6,12 +6,8 @@
   
 }
 /* Search */
-.frame {
-    width: 90%;
-    margin: 40px auto;
-    text-align: center;
-  }
-  .custom-btn {
+
+.custom-btn {
     width: 130px;
     height: 40px;
     color: #fff;
@@ -29,6 +25,58 @@
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
   }
+  
+  
+  /* 5 */
+  .btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+  }
+  .btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  
+  
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
   
   .glow-on-hover {
     background: black;
@@ -2090,16 +2138,25 @@ body {
 
 #pDesContainerEiffel {
     position: absolute;
-    width: 35%;
+    width: 45%;
     height: 100%;
-    right: 10%;
-    top: 120%;
+    right: 2%;
+    top: 133%;
     border-radius: 20px;
 }
 
+/* #pDesContainerEiffel {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 10%;
+    top: 123%;
+    border-radius: 20px;
+} */
+
 #pDesCaptionEiffel {
     margin-top: 0%;
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     color: white;
     padding: 13%;
@@ -2200,7 +2257,8 @@ body {
 }
 
 #pCaption2Eiffel {
-    margin-top: 5%;
+    /* margin-top: 9%; */
+    /* top: 5%; */
     text-align: center;
     font-size: 40px;
     color: #000000;
@@ -2212,7 +2270,7 @@ body {
     width: 25%;
     height: 48%;
     left: 5%;
-    top: 350%;
+    top: 330%;
     border-radius: 20px;
 }
 
@@ -2221,7 +2279,7 @@ body {
     width: 25%;
     height: 55%;
     left: 5%;
-    top: 403%;
+    top: 383%;
     border-radius: 20px;
 }
 
@@ -2230,7 +2288,7 @@ body {
     width: 20%;
     height: 33%;
     left: 38%;
-    top: 350%;
+    top: 330%;
     border-radius: 20px;
 }
 
@@ -2239,7 +2297,7 @@ body {
     width: 20%;
     height: 49%;
     left: 38%;
-    top: 385%;
+    top: 365%;
     border-radius: 20px;
 }
 
@@ -2248,7 +2306,7 @@ body {
     width: 20%;
     height: 20%;
     left: 38%;
-    top: 438%;
+    top: 418%;
     border-radius: 20px;
 }
 
@@ -2257,7 +2315,7 @@ body {
     width: 30%;
     height: 80%;
     right: 5%;
-    top: 350%;
+    top: 330%;
     border-radius: 20px;
 }
 
@@ -2266,7 +2324,7 @@ body {
     width: 30%;
     height: 27%;
     right: 5%;
-    top: 433%;
+    top: 413%;
     border-radius: 20px;
 }
 
@@ -3015,16 +3073,16 @@ body {
 
 #pDesContainerKandalama {
     position: absolute;
-    width: 35%;
+    width: 45%;
     height: 100%;
-    right: 10%;
-    top: 120%;
+    right: 2%;
+    top: 128%;
     border-radius: 20px;
 }
 
 #pDesCaptionKandalama {
     margin-top: 0%;
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     color: white;
     padding: 13%;
@@ -3119,12 +3177,14 @@ body {
 }
 
 #pContainer2Kandalama {
+    top: 10%;
     width: 100%;
     padding-bottom: 60%;
     background-color: #ffffff;
 }
 
 #pCaption2Kandalama {
+    top: 10%;
     text-align: center;
     font-size: 40px;
     color: #000000;
@@ -3136,7 +3196,7 @@ body {
     width: 25%;
     height: 48%;
     left: 5%;
-    top: 345%;
+    top: 350%;
     border-radius: 20px;
 }
 
@@ -3145,7 +3205,7 @@ body {
     width: 25%;
     height: 55%;
     left: 5%;
-    top: 398%;
+    top: 403%;
     border-radius: 20px;
 }
 
@@ -3154,7 +3214,7 @@ body {
     width: 20%;
     height: 33%;
     left: 38%;
-    top: 345%;
+    top: 350%;
     border-radius: 20px;
 }
 
@@ -3163,7 +3223,7 @@ body {
     width: 20%;
     height: 49%;
     left: 38%;
-    top: 380%;
+    top: 385%;
     border-radius: 20px;
 }
 
@@ -3172,7 +3232,7 @@ body {
     width: 20%;
     height: 20%;
     left: 38%;
-    top: 433%;
+    top: 438%;
     border-radius: 20px;
 }
 
@@ -3181,7 +3241,7 @@ body {
     width: 30%;
     height: 80%;
     right: 5%;
-    top: 345%;
+    top: 350%;
     border-radius: 20px;
 }
 
@@ -3190,7 +3250,7 @@ body {
     width: 30%;
     height: 27%;
     right: 5%;
-    top: 427%;
+    top: 432%;
     border-radius: 20px;
 }
 
