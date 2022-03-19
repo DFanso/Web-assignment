@@ -40,27 +40,22 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `country_name`, `location_name`, `AboutLocation`) VALUES
 (1, '<!--Paris-->', '<!--Eiffel Tower-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(2, '<!--China-->', '<', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(3, 'Philippines', 'Salinungan Proper', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(4, 'France', 'Angoulême', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(5, 'Nigeria', 'Nnewi', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(6, 'Honduras', 'Zopilotepe', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(7, 'France', 'Paris 10', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(8, 'China', 'Yima', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(9, 'China', 'Jinshan', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(10, 'Indonesia', 'Curug', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(11, 'Croatia', 'Bršadin', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(12, 'China', 'Gufeng', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(13, 'Thailand', 'Tha Luang', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(14, 'China', 'Dajie', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(15, 'China', 'Xiahong', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(16, 'China', 'Apengjiang', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(17, 'Colombia', 'San Gil', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(18, 'Indonesia', 'Bakunase', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(19, 'Peru', 'Cahuacho', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(20, 'China', 'Xiongbei', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(21, 'Sri Lanka', 'colombo', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(22, 'Sri Lanka', 'Homagama', '<a href=\"https://www.w3schools.com\">Please login to this site </a> ');
+(2, '<!--China-->', '<!--Great wall Of China-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(3, '<!--Italy-->', '<!--The Leaning tower of pisa-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(4, '<!--Sri Lanka-->', '<!--Colombo-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(5, '<!--Sri Lanka-->', '<!--kandalama-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(6, '<!--Sri Lanka-->', '<!--Sigiriya-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(7, '<!--Sri Lanka-->', '<!--Pinnawala Elephant Orphanage-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(8, '<!--Bolivia-->', '<!--Salar De Uyuni-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(9, '<!--Australia-->', '<!--the gret barrier Reaf-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(10, '<!--Philipines-->', '<!--Palawan island-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(11, '<!--New York City-->', '<!--Staus Of Liberty-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(12, '<!--Peru South America-->', '<!--Machu picchu-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(13, '<!--India-->', '<!--The Taj Mahal-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(14, '<!--Egypt-->', '<!--Pyramid of giza-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(15, '<!--Sri Lanka-->', '<!--Mirissa-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(16, '<!--Canada-->', '<!--Niagara Falls-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> ');
+
 
 --
 -- Indexes for dumped tables
