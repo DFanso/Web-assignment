@@ -39,8 +39,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `country_name`, `location_name`, `AboutLocation`) VALUES
-(1, 'Mexico', 'La Esperanza', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
-(2, 'South Korea', 'Tonghae', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(1, '<!--Paris-->', '<!--Eiffel Tower-->', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
+(2, '<!--China-->', '<', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
 (3, 'Philippines', 'Salinungan Proper', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
 (4, 'France', 'Angoulême', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
 (5, 'Nigeria', 'Nnewi', '<a href=\"https://www.w3schools.com\">Please login to this site </a> '),
