@@ -23,9 +23,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./social-media-icons.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./social-media-icons.css" />
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 
 <body>
@@ -45,18 +49,23 @@
         <h1 class="mainCaptionGiza">We Give the Best for You</h1>
     </section>
 
-    <div class="pContainer1Giza">
-        <div id="pCaptionContainerGiza">
-            <p id="pCaptionGiza">Pyramids of Giza</br>Egypt</p>
+    
+    <section class="greenPart">
+      <!-- Description -->
+      <p class="caption">Pyramids of Giza</br>Egypt</p>
+      <div class="green-first-container">
+        <div class="map">
+          <iframe
+            width="100%"
+            height="37%"
+            src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#16.19/29.978346/31.133798"
+            title="Basic"
+            style="border: none"
+          ></iframe>
         </div>
-        <div id="pImageContainerGiza">
-            <iframe width='100%' height='37%'
-                src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#16.19/29.978346/31.133798"
-                title="Basic" style="border:none;"></iframe>
-        </div>
-        <div id="pDesContainerGiza">
-            <p id="pDesCaptionGiza">
-                The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the
+        <div class="descriptionContainer">
+          <p>
+          The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the
                 Giza pyramid complex, which borders modern-day Giza in Egypt. It is the oldest of the Seven Wonders of the Ancient
                 World, as well as the only one that has been preserved in its entirety.
                 Egyptologists believe the pyramid was built as a tomb for Egyptian pharaoh Khufu of the Fourth Dynasty, and that it was
@@ -64,65 +73,102 @@
                 For more than 3,800 years, the Great Pyramid was the world's highest man-made edifice, standing at 146.5 meters (481
                 ft). The smooth white limestone casing was gradually removed, lowering the pyramid's height to the current 138.5 meters
                 (454.4 ft). The basic core structure is what can be observed now.
-            </p>
+          </p>
         </div>
-        <div id="pHighlightsContainerGiza">
-            <p id="pHighlightsCaptionGiza">Trip Highlights</p>
-            <hr id="pHrGiza">
-            <div id="pHighlightsMiniContainerGiza">
-                <ul id="highlightsListGiza">
-                    <br>
-                    <li>Exploring the Great Pyramid</li><br>
+      </div>
+      <!-- Highlights -->
+      <div class="Highlight-Container">
+        <!-- Trip Highlights -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">Trip Highlights</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Exploring the Great Pyramid</li><br>
                     <li>Visit to the Solar Boat Museum</li><br>
                     <li>Visit to the Eastern & Western Cemetery</li><br>
                     <li>Exploring other pyramids</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-        <div id="pIncludedContainerGiza">
-            <p id="pIncludedCaptionGiza">What's Included</p>
-            <hr id="pHr2Giza">
-            <div id="pIncludedMiniContainerGiza">
-                <ul id="includedListGiza">
-                    <br>
-                    <li>Camel and Horse Rides</li><br>
+        <!-- What Includes -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">What's Included</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Camel and Horse Rides</li><br>
                     <li>Pyramids sounds and light show</li><br>
                     <li>Hotes with a great view</li><br>
                     <li>Full guided tours</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-
-    </div>
-
-    <div id="pContainer2Giza">
-        <div id="pCaptionContainer2Giza">
-            <p id="pCaption2Giza">Gallery</p>
+      </div>
+    </section>
+    <section class="packageGalleryContainer">
+      <p class="Gallery-Heading">Gallery</p>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/giza/giza2.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg1Giza" src="/Images/LocationImages/giza/giza1.png">
+        <div class="rowImage2">
+          <img
+            src="/Images/LocationImages/giza/giza3.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg2Giza" src="/Images/LocationImages/giza/giza2.png">
+        <div class="rowImage3">
+          <img
+            src="/Images/LocationImages/giza/giza6.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg3Giza"
-                src="/Images/LocationImages/giza/giza3.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/giza/giza1.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg4Giza" src="/Images/LocationImages/giza/giza4.png">
+        <div class="rowImage4">
+          <img
+            src="/Images/LocationImages/giza/giza4.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg5Giza" src="/Images/LocationImages/giza/giza5.png">
+        <div class="rowImage5">
+          <img
+            src="/Images/LocationImages/giza/giza7.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg6Giza" src="/Images/LocationImages/giza/giza6.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage6">
+          <img src="/Images/LocationImages/giza/giza5.png" width="100%" height="100%"/>
         </div>
-        <div>
-            <img id="pGalleryImg7Giza" src="/Images/LocationImages/giza/giza7.png">
-        </div>
-    </div>
-
+      </div>
+    </section>
+    <section class="registerSection">
+      <p>If Your Interested Book Your Ticket Now!</p>
+      <br />
+    </section>
+    <button href="contactus.html" class="cus-btn btn-3">
+      <span>Register Now</span>
+    </button>
     <section id="researcher">
         <div class="reasearch-container">
             <div class="rrow">
