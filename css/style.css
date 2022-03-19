@@ -4228,18 +4228,28 @@ body {
     border-radius: 20px;
 }
 
+
 #pDesContainerReef {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    right: 2%;
+    top: 130%;
+    border-radius: 20px;
+}
+
+/* #pDesContainerReef {
     position: absolute;
     width: 35%;
     height: 100%;
     right: 10%;
     top: 120%;
     border-radius: 20px;
-}
+} */
 
 #pDesCaptionReef {
     margin-top: 0%;
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     color: white;
     padding: 13%;
@@ -4351,7 +4361,7 @@ body {
     width: 25%;
     height: 48%;
     left: 5%;
-    top: 345%;
+    top: 360%;
     border-radius: 20px;
 }
 
@@ -4360,7 +4370,7 @@ body {
     width: 25%;
     height: 55%;
     left: 5%;
-    top: 398%;
+    top: 412%;
     border-radius: 20px;
 }
 
@@ -4369,7 +4379,7 @@ body {
     width: 20%;
     height: 33%;
     left: 38%;
-    top: 345%;
+    top: 360%;
     border-radius: 20px;
 }
 
@@ -4378,7 +4388,7 @@ body {
     width: 20%;
     height: 49%;
     left: 38%;
-    top: 380%;
+    top: 396%;
     border-radius: 20px;
 }
 
@@ -4387,7 +4397,7 @@ body {
     width: 20%;
     height: 20%;
     left: 38%;
-    top: 433%;
+    top: 448%;
     border-radius: 20px;
 }
 
@@ -4396,7 +4406,7 @@ body {
     width: 30%;
     height: 80%;
     right: 5%;
-    top: 345%;
+    top: 360%;
     border-radius: 20px;
 }
 
@@ -4405,9 +4415,10 @@ body {
     width: 30%;
     height: 27%;
     right: 5%;
-    top: 427%;
+    top: 441.5%;
     border-radius: 20px;
 }
+
 
 /*--------------------------------------End of The Great Barrier Reef page---------------------------------------------------*/
 
