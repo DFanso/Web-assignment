@@ -16,7 +16,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -29,45 +29,38 @@
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="searchStyle.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../style.css">
+    
     <title>Search-Result</title>
 </head>
 <body>
     <section id="search-resultCover">
         <div class="logo">
-         <h2 class="header-h">
-          <img class="logoClass" src="Images/logo2.png">
-          </h2>
-      </div>
+            <h2 class="header-h">
+            <img class="logoSearchClass" src="Images/logo2.png">
+            </h2>
+        </div>
         <div class="ul-divi">
             <ul class="navbar">
-            <li><a href="index.html" class="naveffect">Home</a></li>
-            <li><a href="newAbout.html" class="naveffect">About</a></li>
-            <li><a href="contactus.html"  class=" naveffect">Contact us</a></li>
-            <li><a href="Services.html" class=" naveffect">Services</a></li>
-          </ul>
+                <div class="NavAnmate">
+                    <li><a href="../index.html">Home</a></li>
+                </div>
+                <div class="NavAnmate">
+                    <li><a href="../about.html">About</a></li>
+                </div>
+                <div class="NavAnmate">
+                    <li><a href="../contactus.html">Contact us</a></li>
+                </div>
+                <div class="NavAnmate">
+                    <li><a href="../Services.html">Services</a></li>
+                </div>
+            </ul>
         </div>
         <div class="center-heading">
             <h2 class="center-h">Search Your Dream Vacation</h2>
         </div>
-    </section> 
-
-    <!-- <section id="search-resultCover">
-      <div class="logo">
-         <h2 class="header-h">
-          <img class="logoClass" src="Images/logo2.png">
-          </h2>
-      </div>
-        <div class="ul-divi">
-          <ul class="navbar">
-            <li><a href="index.html" class="naveffect">Home</a></li>
-            <li><a href="newAbout.html" class="naveffect">About</a></li>
-            <li><a href="contactus.html"  class=" naveffect">Contact us</a></li>
-            <li><a href="Services.html" class=" naveffect">Services</a></li>
-          </ul>
-        </div>
-</section> -->
+    </section>
 
     <form action="" method="Get" class="search-result-inputs">
         <input type="text" name="search" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>">
@@ -113,9 +106,9 @@
                             <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-<style>
+    <style>
 #search-resultCover{
-    background-image: url("images/searchResult.png");
+    background-image: url("images/searchResult.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -181,6 +174,6 @@
     margin: 5em;
     width: 20em; 
 }
-    </style> 
+    </style>
 </body>
 </html>
