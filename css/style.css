@@ -2640,7 +2640,7 @@ body {
 /*--------------------------------------Colombo page---------------------------------------------------*/
 
 #packagesCoverColombo {
-  background-image: url("/Images/packages1.jpeg");
+  background-image: url("../Images/packages1.jpeg");
   background-color: rgb(40, 58, 44);
   padding-bottom: 53.5%;
   background-size: cover;
@@ -2775,7 +2775,7 @@ body {
   font-size: 15px;
   color: #000000;
   padding-left: 13%;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #includedListColombo {
@@ -2783,7 +2783,7 @@ body {
   font-size: 15px;
   padding-left: 15%;
   color: #000000;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #pContainer2Colombo {
@@ -4004,7 +4004,7 @@ body {
 /*--------------------------------------The Great Barrier Reef page---------------------------------------------------*/
 
 #packagesCoverReef {
-  background-image: url("/Images/packages1.jpeg");
+  background-image: url("../Images/packages1.jpeg");
   background-color: rgb(40, 58, 44);
   padding-bottom: 53.5%;
   background-size: cover;
@@ -4148,7 +4148,7 @@ body {
   font-size: 15px;
   color: #000000;
   padding-left: 13%;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #includedListReef {
@@ -4156,7 +4156,7 @@ body {
   font-size: 15px;
   padding-left: 15%;
   color: #000000;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #pContainer2Reef {
