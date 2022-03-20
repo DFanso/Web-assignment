@@ -81,7 +81,6 @@
                                             {
                                                 ?>
                                                 <tr>
-                                                    
                                                     <td><?= $items['country_name']; ?></td>
                                                     <td><?= $items['location_name']; ?></td>
                                                     <td><?= $items['AboutLocation']; ?></td>
