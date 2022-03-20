@@ -954,7 +954,7 @@ body {
 /*--------------------------------------contact Us page---------------------------------------------------*/
 
 #contact-header {
-  background-image: url("/Images/contact-us-cover.jpeg");
+  background-image: url("../Images/contact-us-cover.jpeg");
   height: 100vh;
   background-size: cover;
 }
@@ -989,7 +989,7 @@ body {
   margin-top: 25px;
 }
 .testimonials {
-  background: url("testimonials2.jpg");
+  background: url("../Images/testimonials2.jpg");
   background-position: center;
   height: 300px;
   width: 100%;
