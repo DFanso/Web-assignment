@@ -35,7 +35,8 @@
 <body>
     <section id="search-resultCover">
         <div class="logo">
-            <h2 class="header-h"><b>Travel</b>Logo</h2>
+             <!-- <b>Travel</b>Logo -->
+          <img class="logoClass" src="Images/logo2.png">
         </div>
         <div class="ul-divi">
             <ul class="navbar">
