@@ -5148,7 +5148,7 @@ body {
 /*--------------------------------------Pyramids of Giza page---------------------------------------------------*/
 
 #packagesCoverGiza {
-  background-image: url("/Images/packages1.jpeg");
+  background-image: url("../Images/packages1.jpeg");
   background-color: rgb(40, 58, 44);
   padding-bottom: 53.5%;
   background-size: cover;
@@ -5283,7 +5283,7 @@ body {
   font-size: 15px;
   color: #000000;
   padding-left: 13%;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #includedListGiza {
@@ -5291,7 +5291,7 @@ body {
   font-size: 15px;
   padding-left: 15%;
   color: #000000;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #pContainer2Giza {
