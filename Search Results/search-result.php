@@ -30,33 +30,44 @@
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Search-Result</title>
 </head>
 <body>
     <section id="search-resultCover">
         <div class="logo">
-            <h2 class="header-h"><b>Travel</b>Logo</h2>
-        </div>
+         <h2 class="header-h">
+          <img class="logoClass" src="Images/logo2.png">
+          </h2>
+      </div>
         <div class="ul-divi">
             <ul class="navbar">
-                <div class="NavAnmate">
-                    <li><a href="../index.html">Home</a></li>
-                </div>
-                <div class="NavAnmate">
-                    <li><a href="../about.html">About</a></li>
-                </div>
-                <div class="NavAnmate">
-                    <li><a href="../contactus.html">Contact us</a></li>
-                </div>
-                <div class="NavAnmate">
-                    <li><a href="../Services.html">Services</a></li>
-                </div>
-            </ul>
+            <li><a href="index.html" class="naveffect">Home</a></li>
+            <li><a href="newAbout.html" class="naveffect">About</a></li>
+            <li><a href="contactus.html"  class=" naveffect">Contact us</a></li>
+            <li><a href="Services.html" class=" naveffect">Services</a></li>
+          </ul>
         </div>
         <div class="center-heading">
             <h2 class="center-h">Search Your Dream Vacation</h2>
         </div>
-    </section>
+    </section> 
+
+    <!-- <section id="search-resultCover">
+      <div class="logo">
+         <h2 class="header-h">
+          <img class="logoClass" src="Images/logo2.png">
+          </h2>
+      </div>
+        <div class="ul-divi">
+          <ul class="navbar">
+            <li><a href="index.html" class="naveffect">Home</a></li>
+            <li><a href="newAbout.html" class="naveffect">About</a></li>
+            <li><a href="contactus.html"  class=" naveffect">Contact us</a></li>
+            <li><a href="Services.html" class=" naveffect">Services</a></li>
+          </ul>
+        </div>
+</section> -->
 
     <form action="" method="Get" class="search-result-inputs">
         <input type="text" name="search" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>">
@@ -102,7 +113,7 @@
                             <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <style>
+<style>
 #search-resultCover{
     background-image: url("images/searchResult.png");
     background-size: cover;
@@ -170,6 +181,6 @@
     margin: 5em;
     width: 20em; 
 }
-    </style>
+    </style> 
 </body>
 </html>
