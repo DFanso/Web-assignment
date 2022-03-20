@@ -257,18 +257,36 @@ body {
   width: 100%;
 }
 
+/* .logo {
+  background-image: url("../Images/logo2.png");
+  position: absolute;
+  width: 196px;
+  height:   px;
+  left: 47px;
+  top: 45px;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 26px;
+  color: #ffffff;
+}   */
+
 .logo {
   /* TravelLogo */
   position: absolute;
   width: 196px;
   height: 46px;
   left: 47px;
-  top: 45px;
+  top: 15px;
   font-style: normal;
   font-size: 26px;
   line-height: 26px;
   /* identical to box height */
   color: #ffffff;
+} 
+
+.logoClass{
+  width: 140%;
+  height: 140%;
 }
 
 .searchContent {
