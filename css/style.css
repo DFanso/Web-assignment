@@ -1,336 +1,317 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-  
+  margin: 0;
+  padding: 0;
 }
 /* Search */
 
 .custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-  }
-  
-  
-  /* 5 */
-  .btn-5 {
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(255,27,0);
-  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
-  }
-  .btn-5:hover {
-    color: #283a2c;
-    background: transparent;
-     box-shadow:none;
-  }
-  .btn-5:before,
-  .btn-5:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #f0094a;
-    box-shadow:
-     -1px -1px 5px 0px #fff,
-     7px 7px 20px 0px #0003,
-     4px 4px 5px 0px #0002;
-    transition:400ms ease all;
-  }
-  .btn-5:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-5:hover:before,
-  .btn-5:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-  
-  
-  
-.frame {
-    width: 90%;
-    margin: 40px auto;
-    text-align: center;
-  }
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
 
-  
-  .glow-on-hover {
-    background: black;
-    border: none;
-    z-index: 1;
-  }
-  .glow-on-hover:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background-color: gray;
-    border-radius: 5px;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    transition: all 0.3s ease;
-  }
-  .glow-on-hover:hover {
-    color: #fff;
-  }
-  .glow-on-hover:hover:after {
-    left: 0;
-    width: 100%;
-  }
-  .glow-on-hover:active {
-    top: 2px;
-  }
-  
-  
-  /* 16 */
-  .glow-on-hover {
-    border: none;
-    color: #000;
-  }
-  .glow-on-hover:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
-    direction: rtl;
-    z-index: -1;
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    transition: all 0.3s ease;
-  }
-  .glow-on-hover:hover {
-    color: #000;
-  }
-  .glow-on-hover:hover:after {
-    left: auto;
-    right: 0;
-    width: 100%;
-  }
-  .glow-on-hover:active {
-    top: 2px;
-  }
-    
-  
-  
+/* 5 */
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #283a2c;
+  background: linear-gradient(0deg, #283a2c 0%, #283a2c 100%);
+}
+.btn-5:hover {
+  color: white;
+  background: transparent;
+  box-shadow: none;
+}
+.btn-5:before,
+.btn-5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #283a2c;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn-5:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.glow-on-hover {
+  background: black;
+  border: none;
+  z-index: 1;
+}
+.glow-on-hover:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: gray;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.glow-on-hover:hover {
+  color: #fff;
+}
+.glow-on-hover:hover:after {
+  left: 0;
+  width: 100%;
+}
+.glow-on-hover:active {
+  top: 2px;
+}
+
+/* 16 */
+.glow-on-hover {
+  border: none;
+  color: #000;
+}
+.glow-on-hover:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.glow-on-hover:hover {
+  color: #000;
+}
+.glow-on-hover:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.glow-on-hover:active {
+  top: 2px;
+}
+
 /* Social Media Icons */
 .button {
-    float: left;
-	width: 60px;
-	height: 60px;
-	cursor: pointer;
-	background: #fff;
-	overflow: hidden;
-	border-radius: 50px;
-	transition: all 0.3s ease-in-out;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    top: 2.5em;
-    left: 6.5em;
-    margin-right: 5px;
+  float: left;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 2.5em;
+  left: 6.5em;
+  margin-right: 5px;
 }
 
 .button span {
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 60px;
-	margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
 }
 
 .button:hover {
-	width: 200px;
+  width: 200px;
 }
 
 .button:nth-child(1):hover .icon {
-	background: #e1306c;
+  background: #e1306c;
 }
 
 .button:nth-child(2):hover .icon {
-	background: #4267b2;
+  background: #4267b2;
 }
 
 .button:nth-child(3):hover .icon {
-	background: #1da1f2;
+  background: #1da1f2;
 }
 
 .button:nth-child(4):hover .icon {
-	background: #ff0000;
+  background: #ff0000;
 }
 
 .button:nth-child(1) span {
-	color: #e1306c;
+  color: #e1306c;
 }
 
 .button:nth-child(2) span {
-	color: #4267b2;
+  color: #4267b2;
 }
 
 .button:nth-child(3) span {
-	color: #1da1f2;
+  color: #1da1f2;
 }
 
 .button:nth-child(4) span {
-	color: #ff0000;
+  color: #ff0000;
 }
 
 .button .icon {
-	width: 60px;
-	height: 60px;
-	text-align: center;
-	border-radius: 50px;
-	display: inline-block;
-	transition: all 0.3s ease-in-out;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
 }
 
 .button .icon i {
-	font-size: 25px;
-	line-height: 60px;
-	transition: all 0.3s ease-in-out;
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-in-out;
 }
 
 .button:hover i {
-	color: #fff;
+  color: #fff;
 }
 
 /* Social Media Icons End */
-body{
-    font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-#home-cover{
-    background-image: url("/Images/home.jpg");
-    background-color:rgb(40,58,44);
-    height:100vh;
-    background-size:cover;
-
+#home-cover {
+  background-image: url("/Images/home.jpg");
+  background-color: rgb(40, 58, 44);
+  height: 100vh;
+  background-size: cover;
 }
 
 .ul-divi .navbar {
-    display: flex;
-    float:right;
-    margin-top:50px;
-    font-style: bold;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 31px;
+  display: flex;
+  float: right;
+  margin-top: 50px;
+  font-style: bold;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
 }
-.ul-divi .navbar li{
-    display:inline-block;
-    padding-right:70px;
+.ul-divi .navbar li {
+  display: inline-block;
+  padding-right: 70px;
 }
 
 .ul-divi .navbar li a {
-    text-decoration: none;
-    color:#ffffff;
-    
+  text-decoration: none;
+  color: #ffffff;
 }
 /*hover*/
-.ul-divi .navbar li a:hover{
-    color:#283A2C;
-    transition:0.5s;
+.ul-divi .navbar li a:hover {
+  color: #283a2c;
+  transition: 0.5s;
 }
-.ul-divi .navbar li a::after{
-    content:'';
-    width:0%;
-    height:3px;
-    background:#283A2C;
-    display:block;
-    margin:auto;
-    transition:0.5s;
+.ul-divi .navbar li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #283a2c;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
-.ul-divi .navbar li a:hover::after{
-    width:100%
+.ul-divi .navbar li a:hover::after {
+  width: 100%;
 }
-
 
 .logo {
-   /* TravelLogo */
-    position: absolute;
-    width: 196px;
-    height: 46px;
-    left: 47px;
-    top: 45px;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 26px;
-/* identical to box height */
-    color: #FFFFFF;
+  /* TravelLogo */
+  position: absolute;
+  width: 196px;
+  height: 46px;
+  left: 47px;
+  top: 45px;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #ffffff;
 }
 
-.searchContent{
-    width:80%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-   
-
+.searchContent {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.searchBox{
-    background: linear-gradient(90.68deg, rgba(250, 247, 247, 0.25) 2.85%, rgba(188, 184, 184, 0.12) 76.52%); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 6px 15px 7px -1px rgba(0, 0, 0, 0.25);
-    padding:40px 50px;
-    border-radius:40px;
+.searchBox {
+  background: linear-gradient(
+    90.68deg,
+    rgba(250, 247, 247, 0.25) 2.85%,
+    rgba(188, 184, 184, 0.12) 76.52%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    6px 15px 7px -1px rgba(0, 0, 0, 0.25);
+  padding: 40px 50px;
+  border-radius: 40px;
 
-   /* width: 1115px;
+  /* width: 1115px;
     height: 237px;
     left: 182px;
     top: 351px; */
-
-
 }
-.search-bar{
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content: center;
+.search-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #searchText {
-
-    /*right: 50px;*/
-    margin-top: 10px;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 20px;
-    text-align:center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    color:#283A2C;
-    /*line-height: 41px;*/
-    
-    
+  /*right: 50px;*/
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #283a2c;
+  /*line-height: 41px;*/
 }
 
 /*#countryPlaceholder{
@@ -348,955 +329,906 @@ body{
     border-radius: 5px;
 
 }*/
-.text-input{
-    padding:9px 15px;
-    width:400px;
-    border-radius: 10px;
-    border:none;
-    margin-right:10px;
+.text-input {
+  padding: 9px 15px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
 }
 
-.submit-btn{
-    border-radius: 25px;
-    padding:9px 35px;
-    background-color:#a0a0a0;
-    border:none;
-    color:#fff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+.submit-btn {
+  border-radius: 25px;
+  padding: 9px 35px;
+  background-color: #a0a0a0;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     6px 15px 7px -1px rgba(0, 0, 0, 0.25);
 }
 
-.content{
-    background-color:rgb(40,58,44);
-    padding-top:35px;
-    padding-bottom:70px;
+.content {
+  background-color: rgb(40, 58, 44);
+  padding-top: 35px;
+  padding-bottom: 70px;
 }
 
-
-.content .topic{
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 52px;
-    color: #FFFFFF;
-    
+.content .topic {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
 }
 
 .PostImp .Post-h {
-    font-size: 22px;
-    text-align: center;
-    color: white;
+  font-size: 22px;
+  text-align: center;
+  color: white;
 }
 
-.PostImp .Post-p{
-   font-size:15.5px;
-   text-align:center;
-   color:white;
+.PostImp .Post-p {
+  font-size: 15.5px;
+  text-align: center;
+  color: white;
 }
-.PostImp{
-   width:300px;
-   display:flex;
-   align-items:center;
-   justify-content: center;
-   flex-direction:column;
-   margin-left:20px;
-   z-index:1;
-
+.PostImp {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  z-index: 1;
 }
-.post-img{
-    width:100px;
-    margin-bottom:25px;
-    margin-top:40px;
-
+.post-img {
+  width: 100px;
+  margin-bottom: 25px;
+  margin-top: 40px;
 }
-.one-divi{
-    margin-top:250px;
-    margin-left:180px;
+.one-divi {
+  margin-top: 250px;
+  margin-left: 180px;
 }
-.second-divi{
-    margin-left:300px;
-    margin-top:200px;
+.second-divi {
+  margin-left: 300px;
+  margin-top: 200px;
 }
-.third-divi{
-    margin-left:70%;
-    margin-top: -10%;
-    
+.third-divi {
+  margin-left: 70%;
+  margin-top: -10%;
 }
-.about-why-choose-us{
-    font-size: 16px;
-    width:30%;
-    margin-top: -16%;
-    position: absolute;
-    left: 68%;
-    color: white;
-    z-index: 99;
+.about-why-choose-us {
+  font-size: 16px;
+  width: 30%;
+  margin-top: -16%;
+  position: absolute;
+  left: 68%;
+  color: white;
+  z-index: 99;
 }
-#indexHeading{
-    font-size: 20px;
+#indexHeading {
+  font-size: 20px;
 }
-.iFacts{
-    font-size: 15px;
+.iFacts {
+  font-size: 15px;
 }
-.Elephant{
-    position: absolute;
-    top: 120%;
-    margin-left: 40%;
-    z-index: 99;
+.Elephant {
+  position: absolute;
+  top: 120%;
+  margin-left: 40%;
+  z-index: 99;
 }
-.Elephant #E1{
-    position:relative;
-    z-index: 1;
-    animation-name: E1LeftToRight;
-    animation-duration: 7s;
+.Elephant #E1 {
+  position: relative;
+  z-index: 1;
+  animation-name: E1LeftToRight;
+  animation-duration: 7s;
 }
-.Elephant #E1 .E1{
-    height:500px;
+.Elephant #E1 .E1 {
+  height: 500px;
 }
 
-.Elephant #E2{
-    position:relative;
-    margin-top: -25%;
-    margin-left: 15%;
-    z-index: 99;
-    animation-name: E2RightToLeft;
-    animation-duration: 7s;
+.Elephant #E2 {
+  position: relative;
+  margin-top: -25%;
+  margin-left: 15%;
+  z-index: 99;
+  animation-name: E2RightToLeft;
+  animation-duration: 7s;
 }
-@keyframes E1LeftToRight{
-    0%{
-        transform:translateX(-100px)
-    }
-    100%{
-
-        transform:translateX(0)
-    } 
+@keyframes E1LeftToRight {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-@keyframes E2RightToLeft{
-    0%{
-        transform:translateX(100px)
-    }
-    100%{
-        transform:translateX(0)
-    } 
+@keyframes E2RightToLeft {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-.Elephant #E2 .E2{
-    height:350px;
-}
-
-#onGoingName{
-    text-align: center;
+.Elephant #E2 .E2 {
+  height: 350px;
 }
 
-.onGoingTag{
-    text-align:center;
+#onGoingName {
+  text-align: center;
 }
 
-.ongoing-h{
-    margin-top:95px;
-    margin-bottom: 50px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:40px;
+.onGoingTag {
+  text-align: center;
 }
 
-
+.ongoing-h {
+  margin-top: 95px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
 
 /*ongoing slider*/
 
 .slider {
-    position: relative;
-    left:0;
-    top: 300%;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  left: 0;
+  top: 300%;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .slider-inner {
-    position: relative;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 200%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 1.5rem;
-    pointer-events: none;
-    transition: 0s ease-in;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1.5rem;
+  pointer-events: none;
+  transition: 0s ease-in;
 }
 
 .slide {
-    height: 100%;
+  height: 100%;
 }
 
 .slide__img {
-    width: 480px;
-    height: 750px;
+  width: 480px;
+  height: 750px;
 }
 
 .slide__img--1 {
-    background-image: url("/images/Rectangle10.png");
+  background-image: url("/images/Rectangle10.png");
 }
 
 .slide__img--2 {
-    background-image: url("/images/Rectangle11.png");
+  background-image: url("/images/Rectangle11.png");
 }
 
 .slide__img--3 {
-    background-image: url("/images/Rectangle 111.png");
+  background-image: url("/images/Rectangle 111.png");
 }
 
 .slide__img--4 {
-    background-image: url("/images/Rectangle13.png");
+  background-image: url("/images/Rectangle13.png");
 }
 
 .slide__img--5 {
-    background-image: url("/images/Rectangle14.png");
+  background-image: url("/images/Rectangle14.png");
 }
 
 .slide__img--6 {
-    background-image: url("/images/Rectangle15.png");
+  background-image: url("/images/Rectangle15.png");
 }
 
 .slide__img--7 {
-    background-image: url("/images/Rectangle19.jpeg");
+  background-image: url("/images/Rectangle19.jpeg");
 }
 
 .img-content {
   position: relative;
-  top:75%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  text-align:left;
-  margin-left:8px;
-  color:#fff;
-  
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  margin-left: 8px;
+  color: #fff;
 }
-.img-content-h{
-    font-weight:bold;
-    font-size:30px;
-} 
+.img-content-h {
+  font-weight: bold;
+  font-size: 30px;
+}
 /*ongoing slider END */
 
-
 /*footer*/
-#researcher{
-    margin-top:15vh;
+#researcher {
+  margin-top: 15vh;
 }
 
-.researcher-h{
-    font-family: 'Architects Daughter', cursive;
-    font-size:50px;
-    color:#283A2C;
+.researcher-h {
+  font-family: "Architects Daughter", cursive;
+  font-size: 50px;
+  color: #283a2c;
 }
 
-.col-2{
-    width:50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.col-2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.rrow{
-    display:flex;
-    flex-direction: row;
-
+.rrow {
+  display: flex;
+  flex-direction: row;
 }
 .circle {
-    width: 200px;
-    height: 200px;
-    border-width: 2px;
-    border-style: dashed;
-    border-radius: 50%;
-    text-align: center;
-    color:#000;
-    margin-right:80px;
-    
-  }
-  .circle-content{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:black;
-
-  }
-  .fa{
-      margin-bottom: 5px;
-      color:#000;
-      
-  }
-  .reasearch-container{
-      background-color: #B1B880;
-      padding-top:60px;
-      padding-bottom: 60px;
-      
-  }
-  .f-row{
-        display: flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        width:100%;
-  }
-  .footer-link-p{
-      margin-left: 1.8em;
-      margin-top: 5%;
-  }
-
-  .col-4{
-      margin-left:-30px;
-      width:30%;
-      text-align:center;
-      align-items: center;
-      justify-content:center;
-  }
-
-  .footer-h{
-      color:#B1B880;
-      padding-bottom:10px;
-      font-size:17px;
-  }
-
-
-.footer-p{
-    font-family: 'Aladin', cursive;
-    font-size:19px;
-    color:#B1B880;
-    padding-bottom: 8px;
+  width: 200px;
+  height: 200px;
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 50%;
+  text-align: center;
+  color: #000;
+  margin-right: 80px;
 }
-.f-container{
-    background-color:#283A2C;
-    padding-top: 50px;
-    padding-bottom: 30px;
-   
+.circle-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
-.col-4 .fa{
-    color:#056271;
-    font-size: 30px;
-    text-decoration: none;
-    padding-right:12px;
+.fa {
+  margin-bottom: 5px;
+  color: #000;
 }
-.email-h{
-    margin-top:30px;
+.reasearch-container {
+  background-color: #b1b880;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.footer-link{
-    margin-top:20px;
+.f-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.footer-link .footer-nav{
-    list-style:none;
-}
-.footer-link .footer-nav li{
-    display: inline;
-    padding-left:20px;
-}
-.footer-link .footer-nav li a{
-    color:#B1B880;
-    font-size: 15px;
-    text-align: center;
-    text-decoration: none;
-    
-}
-.footer-link .footer-nav li a:hover{
-    text-decoration: underline;
-    
-}
-.footer-link-p{
-    color:#B1B880;
-    font-size: 15px;
-    text-align: center;
-    padding-top:138px;
+.footer-link-p {
+  margin-left: 1.8em;
+  margin-top: 5%;
 }
 
-.nav-divi .fa{
+.col-4 {
+  margin-left: -30px;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-h {
+  color: #b1b880;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.footer-p {
+  font-family: "Aladin", cursive;
+  font-size: 19px;
+  color: #b1b880;
+  padding-bottom: 8px;
+}
+.f-container {
+  background-color: #283a2c;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.col-4 .fa {
+  color: #056271;
+  font-size: 30px;
+  text-decoration: none;
+  padding-right: 12px;
+}
+.email-h {
+  margin-top: 30px;
+}
+.footer-link {
+  margin-top: 20px;
+}
+.footer-link .footer-nav {
+  list-style: none;
+}
+.footer-link .footer-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.footer-link .footer-nav li a {
+  color: #b1b880;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.footer-link .footer-nav li a:hover {
+  text-decoration: underline;
+}
+.footer-link-p {
+  color: #b1b880;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 138px;
+}
+
+.nav-divi .fa {
   display: none;
 }
 
 /*footer end*/
 
+#slider-control .container {
+  position: relative;
+  margin-top: 5%;
+}
 
-
-#slider-control .container{
-    position:relative;
-    margin-top:5%;
-    
+@media only screen and (max-width: 800px) {
+  /*footer-mobile*/
+  .center-heading .center-h {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  .nav-divi .navbar {
+    display: none;
+  }
+  .nav-divi .fa {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .testimonials {
+    background: url("testimonials2.jpg");
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
   }
 
-@media only screen and (max-width:800px){
-    /*footer-mobile*/
-    .center-heading .center-h{
-        transform:translate(-50%,-50%) scale(1.5);
-    }
-    .nav-divi .navbar{
-        display: none;
-       
-        
-    }
-    .nav-divi .fa{
-        display:block;
-        float:right;
-        margin-top:20px;
-        margin-right:20px;
-        font-size: 22px;
-        color:#ffffff;
-    }
-    .testimonials{
-        background:url('testimonials2.jpg');
-        background-position: center;
-        height:200px;
-        width:100%;
-        border-radius:15px;
-    }
-
-    .testimonials-content{
-        position: relative;
-        float: left;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .testimonials-h{
-        margin-bottom:20px;
-        color:white;
-        font-size:26px;
-    }
-    .testimonials-p{
-       color:#ffffff;
-       font-size: 15px;
-      
-    }
-    .rrow{
-        display:flex;
-        flex-direction: column;
-    
-    }
-    .col-2{
-        width:100%;
-        margin-top:30px;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        margin-left:20px;
-    }
-    .circle {
-        width: 150px;
-        height: 150px; 
-        margin-inline:10px;
-      }
-    
-      .f-row{
-        width:100%; 
-     }
-     .col-4{
-      width:100%;
-      text-align:center;
-      align-items: center;
-      justify-content:center;
-     }
-   
-     .footer-h{
-        margin-top:30px;
-        margin-bottom: 5px;
-    }
-    .footer-p{
-        padding-bottom: 10px;
-    }
-    .footer-link-p{
-        padding-top:30px;
-    }
-    .social-icons{
-        padding-top:25px;
-    }
-    .researcher-h{
-        font-size:40px;
-    }
-    .researcher-p{
-        padding-top:20px;
-    }
-    /*footer-mobile-end*/
-
-
-    /*contact-us-responsive*/
-    textarea{
-        min-width:450px;
-        height:250px;
-        border:1px solid #000;
-        border-radius: 30px;
-        
-        }
-        .textbox-style{
-            display:flex;
-            padding:10px 14px;
-            border:2px solid #000;
-            border-radius: 20px;
-            width:250px;
-        }
-        /*contact-us-responsive-end*/
-      .profile{
-         width:20px;
-     }
-    
-        
-}
-
-
-/*--------------------------------------About page start------------------------------*/
-
-#AUhome-cover{
-    background-image: url("/Images/aboutbg.png");
-    background-color:rgb(40,58,44);
-    padding-bottom: 50%;
-    background-size:cover;
-
-}
-
-.KAU{
-     position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    animation-name: moveinleft;
-    animation-duration: 3s;
-}
-@keyframes moveinleft{
-    0%{
-        opacity:0;
-        transform:translateX(-100px)
-    }
-    80%{
-        transform:translateX(20px)
-    }
-    100%{
-        opacity:1;
-        transform:translateX(0)
-    } 
-}
-
-.TransTextBox{
-    position: absolute;
-    width: 70%;
-    height: 228px;
-    left: 15%;
-    top: 381px;
-    font-size: 50vw;
-    
-    background: linear-gradient(90.68deg, rgba(250, 247, 247, 0.25) -0.22%, rgba(188, 184, 184, 0.12) 73.45%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 6px 15px 7px rgba(0, 0, 0, 0.25);
-    border-radius: 76px;
-}
-.TransTextBox p {
-    width: 100%;
-    position: relative;
-    padding-top: 5%;
-    padding-left: 1.5%;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 29px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-
-.about-gr-container{
-    width:100%;
-    padding-bottom: 10%;
-    background-color: #283A2C;
-}
-.about-container{
-    padding-top: 5%;
-    display: flex;
-    margin-left: 2%;
-}
-.box-text-container-1{
-    padding-top: 5%;
-    width: 30%;
-    padding-bottom:30%;
-    margin-left: 2%;
-    background: url("/Images/about1.png");
-    background-repeat: no-repeat;  
-}
-.box-text-container-2{
-    padding-top: 5%;
-    width: 30%;
-    padding-bottom:30%;
-    margin-left: 2%;
-    background: url("/Images/about2.png");
-    background-repeat: no-repeat;  
-}
-.box-text-container-3{
-    padding-top: 5%;
-    width: 30%;
-    padding-bottom:30%;
-    margin-left: 2%;
-    background: url("/Images/about3.png");
-    background-repeat: no-repeat;  
-}
-.box-text{
-    
-    display: flex;
-    font-family: 'Raleway', sans-serif;
-    width: 20em;
-    text-align: center;
-    color: white;
-    padding: 5%;
-    font-size: 20px;
-    /* display:flex; */
-}
-.box-text-1{
-    display: flex;
-    width: 60em;
-    font-family: 'Raleway',sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 5%;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 2px 2px #000000;
-    /* display:flex; */
-}
-
-.healthContainer{
-    width :80%;
-    padding-bottom: 15%;
-    margin-top: 5%;
-    margin-left: 10%;
-    background: url("/Images/Health Container.png");
-    background-repeat: no-repeat;
-    border-radius: 50px;
-}
-.vision-container{
-    width :80%;
-    margin-left: 10%;
-    background: url("/Images/VisionContainor.png");
-    padding-bottom: 10%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50px
-}
-.mission-container{
-    width :80%;
-    margin-left: 10%;
-    background: url("/Images/MissionContainor.png");
-    padding-bottom: 10%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 50px
-}
-.box-heading{
-    font-weight: 600;
-    color: white;
-    font-size:38px;
-    text-align: right;
-    margin-right: 5%;
-    padding-top: 3%;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------------contact Us page---------------------------------------------------*/
-
-
-
-#contact-header{
-    background-image: url('/Images/contact-us-cover.jpeg');
-    height:100vh;
-    background-size: cover;
-}
-
-.center-heading .center-h{
-    color:#ffffff;
-    text-align:center;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%) scale(3.3);
-}
-
-.testimonials .testimonials-h{
-    text-align:center;
-
-}
-.testimonials .testimonials-p{
-    text-align:center;
-}
-
-.row{
-    display:flex;
-    flex-direction: row;
-
-}
-.col-1{
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-#testimonials{
-    margin-top:25px;
-}
-.testimonials{
-    background:url('testimonials2.jpg');
-    background-position: center;
-    height:300px;
-    width:100%;
-    border-radius:25px;
-}
-.testimonials-content{
+  .testimonials-content {
     position: relative;
     float: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.testimonials-h{
-    margin-bottom:20px;
-    color:white;
-    font-size:36px;
-}
-.testimonials-p{
-   color:#ffffff;
-   font-size: 17px;
-   padding-left: 100px;
-   padding-right: 100px;
-}
-.checked{
-    color:orange;
-}
-.unchecked{
-    color:grey;
-}
-.rating{
-    margin-bottom: 10px;
-}
-#feedback{
-    margin-top:35px;
-   
-}
-.feedback{
-    text-align: center;
-}
-
-textarea{
-    min-width:800px;
-    height:250px;
-    border:1px solid #000;
-    border-radius: 30px;
-    
-}
-
-.feedback-h{
-    margin-bottom: 10px;
-    font-size:26px;
-}
-.feedback-p{
-    margin-bottom: 10px;
-}
-
-.feedback{
-    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.3);
-    padding:30px 60px;
-    border-radius: 30px;
-    width:100%;
-    margin-bottom: 40px;
-}
-.textbox-style{
-    float:left;
-    padding:10px 14px;
-    border:2px solid #000;
-    border-radius: 20px;
-    width:250px;
-}
-.text-box{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top:30px;
-}
-.submit-btn{
-   
-    text-align:center;
-    padding:9px 5px;
-    width:120px;
-    border:2px solid #056271;
-    background:#056271;
-    border-radius: 20px;
+  }
+  .testimonials-h {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 26px;
+  }
+  .testimonials-p {
     color: #ffffff;
-    margin-top:20px;
-}
+    font-size: 15px;
+  }
+  .rrow {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-2 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin-inline: 10px;
+  }
 
+  .f-row {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 
-iframe{
-    width:100%;
+  .footer-h {
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .footer-p {
+    padding-bottom: 10px;
+  }
+  .footer-link-p {
+    padding-top: 30px;
+  }
+  .social-icons {
+    padding-top: 25px;
+  }
+  .researcher-h {
+    font-size: 40px;
+  }
+  .researcher-p {
+    padding-top: 20px;
+  }
+  /*footer-mobile-end*/
+
+  /*contact-us-responsive*/
+  textarea {
+    min-width: 450px;
+    height: 250px;
+    border: 1px solid #000;
     border-radius: 30px;
-    margin-bottom: 35px;
+  }
+  .textbox-style {
+    display: flex;
+    padding: 10px 14px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 250px;
+  }
+  /*contact-us-responsive-end*/
+  .profile {
+    width: 20px;
+  }
 }
 
-#contact-slider-control{
-    position:relative;
-    margin-top:5%;
-    margin-bottom:5%;
+/*--------------------------------------About page start------------------------------*/
+
+#AUhome-cover {
+  background-image: url("/Images/aboutbg.png");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 50%;
+  background-size: cover;
 }
-.contactmsg{
-    padding-top:3%;
+
+.KAU {
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  animation-name: moveinleft;
+  animation-duration: 3s;
+}
+@keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.TransTextBox {
+  position: absolute;
+  width: 70%;
+  height: 228px;
+  left: 15%;
+  top: 381px;
+  font-size: 50vw;
+
+  background: linear-gradient(
+    90.68deg,
+    rgba(250, 247, 247, 0.25) -0.22%,
+    rgba(188, 184, 184, 0.12) 73.45%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 6px 15px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 76px;
+}
+.TransTextBox p {
+  width: 100%;
+  position: relative;
+  padding-top: 5%;
+  padding-left: 1.5%;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.about-gr-container {
+  width: 100%;
+  padding-bottom: 10%;
+  background-color: #283a2c;
+}
+.about-container {
+  padding-top: 5%;
+  display: flex;
+  margin-left: 2%;
+}
+.box-text-container-1 {
+  padding-top: 5%;
+  width: 30%;
+  padding-bottom: 30%;
+  margin-left: 2%;
+  background: url("/Images/about1.png");
+  background-repeat: no-repeat;
+}
+.box-text-container-2 {
+  padding-top: 5%;
+  width: 30%;
+  padding-bottom: 30%;
+  margin-left: 2%;
+  background: url("/Images/about2.png");
+  background-repeat: no-repeat;
+}
+.box-text-container-3 {
+  padding-top: 5%;
+  width: 30%;
+  padding-bottom: 30%;
+  margin-left: 2%;
+  background: url("/Images/about3.png");
+  background-repeat: no-repeat;
+}
+.box-text {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  width: 20em;
+  text-align: center;
+  color: white;
+  padding: 5%;
+  font-size: 20px;
+  /* display:flex; */
+}
+.box-text-1 {
+  display: flex;
+  width: 60em;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  /* display:flex; */
+}
+
+.healthContainer {
+  width: 80%;
+  padding-bottom: 15%;
+  margin-top: 5%;
+  margin-left: 10%;
+  background: url("/Images/Health Container.png");
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.vision-container {
+  width: 80%;
+  margin-left: 10%;
+  background: url("/Images/VisionContainor.png");
+  padding-bottom: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.mission-container {
+  width: 80%;
+  margin-left: 10%;
+  background: url("/Images/MissionContainor.png");
+  padding-bottom: 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.box-heading {
+  font-weight: 600;
+  color: white;
+  font-size: 38px;
+  text-align: right;
+  margin-right: 5%;
+  padding-top: 3%;
+}
+
+/*--------------------------------------contact Us page---------------------------------------------------*/
+
+#contact-header {
+  background-image: url("/Images/contact-us-cover.jpeg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.center-heading .center-h {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3.3);
+}
+
+.testimonials .testimonials-h {
+  text-align: center;
+}
+.testimonials .testimonials-p {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#testimonials {
+  margin-top: 25px;
+}
+.testimonials {
+  background: url("testimonials2.jpg");
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 25px;
+}
+.testimonials-content {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials-h {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 36px;
+}
+.testimonials-p {
+  color: #ffffff;
+  font-size: 17px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.checked {
+  color: orange;
+}
+.unchecked {
+  color: grey;
+}
+.rating {
+  margin-bottom: 10px;
+}
+#feedback {
+  margin-top: 35px;
+}
+.feedback {
+  text-align: center;
+}
+
+textarea {
+  min-width: 800px;
+  height: 250px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+
+.feedback-h {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+.feedback-p {
+  margin-bottom: 10px;
+}
+
+.feedback {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+  padding: 30px 60px;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.textbox-style {
+  float: left;
+  padding: 10px 14px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 250px;
+}
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.submit-btn {
+  text-align: center;
+  padding: 9px 5px;
+  width: 120px;
+  border: 2px solid #056271;
+  background: #056271;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+
+#contact-slider-control {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.contactmsg {
+  padding-top: 3%;
 }
 
 /*--------------------------------------End of contact Us page---------------------------------------------------*/
 
 /*--------------------------------------Services page---------------------------------------------------*/
-.SHomeCover{
-    background-image: url("/Images/beach.jpg");
-    background-color:rgb(40,58,44);
-    height:100vh;
-    background-size:cover;
-
+.SHomeCover {
+  background-image: url("/Images/beach.jpg");
+  background-color: rgb(40, 58, 44);
+  height: 100vh;
+  background-size: cover;
 }
 
-.center-h{
-    width: 60%;
-    text-align: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    align-content: center;
+.center-h {
+  width: 60%;
+  text-align: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-content: center;
 }
 
-.whatwedoServices{
-    text-align:center;
-    margin-bottom: 3%;
-    padding-top:10%;
+.whatwedoServices {
+  text-align: center;
+  margin-bottom: 3%;
+  padding-top: 10%;
 }
-#service{
-    margin-top:3%;
-    margin-bottom:3%;
+#service {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
-.SerivesBox{
-    -webkit-justify-content: center;
-    justify-content: center;
-    width: 80%;
-    padding-bottom: 10%;
-    margin-left: 10%;
-    background: #f8f6f6;
-    padding-left:3%;
-    padding-right:3%;
-    box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 95px;
-    z-index: 1;
+.SerivesBox {
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 80%;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  background: #f8f6f6;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 95px;
+  z-index: 1;
+}
+.SerivesBox .services-p-divi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.plane {
+  position: relative;
+  margin-top: -15%;
+  z-index: 99;
+  margin-bottom: 3%;
+  animation-name: PlaneLeftToRight;
+  animation-duration: 7s;
 }
-.SerivesBox .services-p-divi{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
+@keyframes PlaneLeftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-
-.plane{
-    position: relative;
-    margin-top: -15%;
-    z-index: 99;
-    margin-bottom: 3%;
-    animation-name: PlaneLeftToRight;
-    animation-duration: 7s;
+.our_Categories {
+  margin-left: 3%;
+  display: flex;
+  column-gap: 20px;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-@keyframes PlaneLeftToRight{
-    0%{
-        opacity:0;
-        transform:translateX(-100px)
-    }
-    100%{
-        opacity:1;
-        transform:translateX(0)
-    } 
+.familyVacationPackage {
+  /* service1 */
+  background-image: url("/Images/family1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 48em;
+  z-index: 1;
 }
-.our_Categories{
-    margin-left: 3%;
-    display: flex;
-    column-gap: 20px;
-    -webkit-justify-content: center;
-    justify-content: center;
+.familyVacationPackage p {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 16em;
 }
-.familyVacationPackage{
-    /* service1 */
-    background-image: url("/Images/family1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:30em;
-    height: 48em;
-    z-index: 1;
-}
-.familyVacationPackage p{
-    color: white;
-    font-size: 35px;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    top: 16em;
-}
-.privateTravelPackage{
-    /* service3 */
-    background-image:url("/Images/privATE.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 30%;
-    height:25em;
-    border-radius: 40px;
-    z-index: 2;
+.privateTravelPackage {
+  /* service3 */
+  background-image: url("/Images/privATE.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 25em;
+  border-radius: 40px;
+  z-index: 2;
 }
 .privateTravelPackage p {
-    text-align: center;
-    margin-top: 45%;
-    margin-bottom: 5%;
-    color: white;
-    font-size: 35px;
+  text-align: center;
+  margin-top: 45%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 35px;
 }
-.friendsVacationPackage{
-    /* service1 */
-    background-image:url("/Images/friends.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:30em;
-    height: 48em;
-    z-index: 1;
+.friendsVacationPackage {
+  /* service1 */
+  background-image: url("/Images/friends.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 48em;
+  z-index: 1;
 }
-.friendsVacationPackage p{
-    text-align: center;
-    margin-top: 110%;
-    margin-bottom: 5%;
-    color: white;
-    font-size: 35px;
+.friendsVacationPackage p {
+  text-align: center;
+  margin-top: 110%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 35px;
 }
-.coupleVacationPackage{
-    position: absolute;
-    margin-top: 25%;
-    background-image:url("/Images/couple.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:30em;
-    height: 48em;
-    border-radius: 40px;
-    z-index: 1;
+.coupleVacationPackage {
+  position: absolute;
+  margin-top: 25%;
+  background-image: url("/Images/couple.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 48em;
+  border-radius: 40px;
+  z-index: 1;
 }
-.coupleVacationPackage p{
-    text-align: center;
-    margin-top: 105%;
-    margin-bottom: 5%;
-    color: white;
-    font-size: 35px;
+.coupleVacationPackage p {
+  text-align: center;
+  margin-top: 105%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 35px;
 }
 
 /*
@@ -1308,58 +1240,56 @@ iframe{
 
 }*/
 
-.travel-icon-row{
+.travel-icon-row {
   display: flex;
   flex-direction: row;
 }
-.col-3{
-    width:33.33%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.col-3 {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.guiders-row{
-    display:flex;
-    flex-direction:row;
-    margin-top:2%;
-    margin-bottom:5%;
-
+.guiders-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 .guiders-col-1 {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    margin-left: 0%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  margin-left: 0%;
 }
 .guiders-col-2 {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .guiders-col-3 {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .guiders-col-4 {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    margin-right: 5%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  margin-right: 5%;
 }
 /* .circle-guid{
     margin:0%;
@@ -1371,88 +1301,79 @@ iframe{
     align-items: center;
     justify-content: center;
 } */
-.circle-guid1{
-    margin:0%;
-    /* background-color: #f8f6f6; */
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    /* display:flex; */
-    align-items: center;
-    justify-content: center;
+.circle-guid1 {
+  margin: 0%;
+  /* background-color: #f8f6f6; */
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  /* display:flex; */
+  align-items: center;
+  justify-content: center;
 }
 .circle-guid2 {
-    margin: 0%;
-    /* background-color: #f8f6f6; */
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    /* display:flex; */
-    align-items: center;
-    justify-content: center;
+  margin: 0%;
+  /* background-color: #f8f6f6; */
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  /* display:flex; */
+  align-items: center;
+  justify-content: center;
 }
 .circle-guid3 {
-    margin: 0%;
-    /* background-color: #f8f6f6; */
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    /* display:flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+  margin: 0%;
+  /* background-color: #f8f6f6; */
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  /* display:flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 .circle-guid4 {
-    margin: 0%;
-    /* background-color: #f8f6f6; */
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    /* display:flex; */
-    align-items: center;
-    justify-content: center;
+  margin: 0%;
+  /* background-color: #f8f6f6; */
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  /* display:flex; */
+  align-items: center;
+  justify-content: center;
 }
 .profilePic {
-    width: auto;
-    height: auto;
-    border-radius: 55%;
+  width: auto;
+  height: auto;
+  border-radius: 55%;
 }
 
 .guiderName {
-    text-align:center;
-    position:relative;
-    top:65%;
-    left:50%;
-    color: white;
-    
+  text-align: center;
+  position: relative;
+  top: 65%;
+  left: 50%;
+  color: white;
 }
-.guiders-container{
-    width:95%;
-    padding-top:5px;
-    padding-bottom:5px;
-    background-color: #056271;
-    border-radius: 50px;
-    margin:auto;
-    margin-top:5%;
-    margin-bottom: 5%;
+.guiders-container {
+  width: 95%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #056271;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-.travels_image{
-    margin-top:50px;
-    width:120px;
-    padding-bottom: 30px;
+.travels_image {
+  margin-top: 50px;
+  width: 120px;
+  padding-bottom: 30px;
 }
-.travels_p{
-    text-align:center;
+.travels_p {
+  text-align: center;
 }
 
 /*--------------------------------------End of Services page---------------------------------------------------*/
-
-
-
-
-
-
-
-
 
 /*-------------------------------------- 
 
@@ -1510,822 +1431,754 @@ body {
 
 /*-------------------------------------- */
 
-
-
-
-
-
 /* Category Page / Family Vacation */
 
 .vacation-package-details {
-    display: flex;
-
+  display: flex;
 }
 
-.familyVacationPageCover{
-    background-image: url("/Images/image11.png");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+.familyVacationPageCover {
+  background-image: url("/Images/image11.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
-.image-box-category{
-    width: 40%;
-    height: 85vh;
-    margin: 5%;
-    margin-left: 10%;
-    border-radius: 70px;
-    background-image: url("/Images/Family.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    /* background-color: red; */
+.image-box-category {
+  width: 40%;
+  height: 85vh;
+  margin: 5%;
+  margin-left: 10%;
+  border-radius: 70px;
+  background-image: url("/Images/family.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background-color: red; */
 }
-.category-heading{
-    margin-top: 10%;
-    font-weight: 600;
+.image-box-category-private {
+  width: 40%;
+  height: 85vh;
+  margin: 5%;
+  margin-left: 10%;
+  border-radius: 70px;
+  background-image: url("/Images/privATE.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background-color: red; */
 }
-.category-description{
-    width: 30%;
-    margin-top: 18%;
-    margin-left: -11%;
+.image-box-category-couple {
+  width: 40%;
+  height: 85vh;
+  margin: 5%;
+  margin-left: 10%;
+  border-radius: 70px;
+  background-image: url("/Images/couple.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background-color: red; */
+}
+.image-box-category-friends {
+  width: 40%;
+  height: 85vh;
+  margin: 5%;
+  margin-left: 10%;
+  border-radius: 70px;
+  background-image: url("/Images/friends.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: red; */
+}
+.category-heading {
+  margin-top: 10%;
+  font-weight: 600;
+}
+.category-description {
+  width: 30%;
+  margin-top: 18%;
+  margin-left: -11%;
 }
 
 /*end of / Category Page / Family Vacation */
 
 /* Login-page */
 
-#loginCover{
-    background-image: url("/Images/SignUp.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-bottom: 55%;
+#loginCover {
+  background-image: url("/Images/SignUp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 55%;
 }
 
-.signInHeading{
-    font-family: lato;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    -webkit-justify-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 25%;
-    left: 40%;
-    font-size: 100px;
+.signInHeading {
+  font-family: lato;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: 100px;
 }
-.usernameInput{
-    position: absolute;
-    top: 43%;
-    left: 15%;
+.usernameInput {
+  position: absolute;
+  top: 43%;
+  left: 15%;
 }
-.passwordInput{
-    position: absolute;
-    top:60%;
-    left: 15%;
+.passwordInput {
+  position: absolute;
+  top: 60%;
+  left: 15%;
 }
-.inputStyle input{
-    width: 70%;
-    height: 6em;
-    border-radius: 2em;
-    border: none;
-    opacity: 0.3;
-    box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
-    padding-left: 3%;
-    font-size: 20px;
+.inputStyle input {
+  width: 70%;
+  height: 6em;
+  border-radius: 2em;
+  border: none;
+  opacity: 0.3;
+  box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
+  padding-left: 3%;
+  font-size: 20px;
 }
-.passwordbtn{
-    width: 20%;
-    height: 4em;
-    border-radius: 2em;
-    border: none;
-    opacity: 0.3;
-    box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 30px;
-    
-    position: absolute;
-    top: 78%;
-    left: 39%;   
+.passwordbtn {
+  width: 20%;
+  height: 4em;
+  border-radius: 2em;
+  border: none;
+  opacity: 0.3;
+  box-shadow: 8px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+
+  position: absolute;
+  top: 78%;
+  left: 39%;
 }
 /*--------------------------------------Search-result page---------------------------------------------------*/
 
-#search-resultCover{
-    background-image: url("/Images/searchResult.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-bottom: 55%;
+#search-resultCover {
+  background-image: url("/Images/searchResult.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 55%;
 }
 
-.search-result-inputs{
-    display: flex;
+.search-result-inputs {
+  display: flex;
 }
-.search-result-inputs input{
-    margin: 3%;
-    width: 30%;
-    height:3em;
-    padding-left: 2%;
-    border: none;
+.search-result-inputs input {
+  margin: 3%;
+  width: 30%;
+  height: 3em;
+  padding-left: 2%;
+  border: none;
 }
-.search-result-btn{
-    margin-top: 3%;
-    width:16%;
-    height:4em;
-    background-color: #0FA8B8;
-    color: white;
-    font-size: 20px;
+.search-result-btn {
+  margin-top: 3%;
+  width: 16%;
+  height: 4em;
+  background-color: #0fa8b8;
+  color: white;
+  font-size: 20px;
 }
-#searchResultCaption{
-    padding: 2%;
-    float: left;
-    font-size: 18px;
-    color: black;
+#searchResultCaption {
+  padding: 2%;
+  float: left;
+  font-size: 18px;
+  color: black;
 }
-#filterCaption{
-    padding: 2%;
-    float: right;
-    font-size: 18px;    
-    color: black;
+#filterCaption {
+  padding: 2%;
+  float: right;
+  font-size: 18px;
+  color: black;
 }
-.sample-row{
-    display: flex;
-    flex: wrap;
+.sample-row {
+  display: flex;
+  flex: wrap;
 }
-.sample-result{
-    background-image: url("/Images/Rectangle 41.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5em;
-    width: 20em; 
+.sample-result {
+  background-image: url("/Images/Rectangle 41.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5em;
+  width: 20em;
 }
 /*--------------------------------------End of the Search-Result page---------------------------------------------------*/
 
 /*--------------------------------------Packages page---------------------------------------------------*/
 
 #packagesCover {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size:cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
-.mainCaption{
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.mainCaption {
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.pContainer1{
-    width:100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+.pContainer1 {
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
-#pCaption{
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+#pCaption {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
-#pImageContainer{
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+#pImageContainer {
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
-#pDesContainer{
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+#pDesContainer {
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
-#pDesCaption{
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+#pDesCaption {
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainer{
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 220%;
-    border-radius: 10px;
+#pHighlightsContainer {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 220%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaption{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-    
+#pHighlightsCaption {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
-#pHr{
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+#pHr {
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
-#pHighlightsMiniContainer{
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 80%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+#pHighlightsMiniContainer {
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 80%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
-#pIncludedContainer{
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pIncludedContainer {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pIncludedCaption{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+#pIncludedCaption {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
-#pHr2{
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+#pHr2 {
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
-#pIncludedMiniContainer{
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 80%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+#pIncludedMiniContainer {
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 80%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
-#highlightsList{
-    text-align: center;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 0;
-    list-style-image: url("/Images/packagesArrow.png");
+#highlightsList {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 0;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
-#includedList{
-    text-align: center;
-    font-size: 15px;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+#includedList {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
-#pContainer2{
-    width:100%;
-    background-color: #ffffff;
+#pContainer2 {
+  width: 100%;
+  background-color: #ffffff;
 }
 
-#pCaption2{
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+#pCaption2 {
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
-#pGalleryImg1{
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 355%;
-    border-radius: 20px;
+#pGalleryImg1 {
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 355%;
+  border-radius: 20px;
 }
 
-#pGalleryImg2{
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 410%;
-    border-radius: 20px;
+#pGalleryImg2 {
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 410%;
+  border-radius: 20px;
 }
 
-#pGalleryImg3{
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 355%;
-    border-radius: 20px;
+#pGalleryImg3 {
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 355%;
+  border-radius: 20px;
 }
 
-#pGalleryImg4{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 392%;
-    border-radius: 20px;
+#pGalleryImg4 {
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 392%;
+  border-radius: 20px;
 }
 
-#pGalleryImg5{
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 445%;
-    border-radius: 20px;
+#pGalleryImg5 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 445%;
+  border-radius: 20px;
 }
 
-#pGalleryImg6{
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 355%;
-    border-radius: 20px;
+#pGalleryImg6 {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 355%;
+  border-radius: 20px;
 }
 
-#pGalleryImg7{
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 438%;
-    border-radius: 20px;
+#pGalleryImg7 {
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 438%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Packages page---------------------------------------------------*/
 
 /* -------------------------------------newAbout.html Page----------------------------------------------------- */
-.whatMakesUsExceptional-Container{
-    width: 100%;
-    height: 50em;
-    background-color: #283A2C;
-    color: white;
-    position: relative;
-    top: -10px;
+.whatMakesUsExceptional-Container {
+  width: 100%;
+  height: 50em;
+  background-color: #283a2c;
+  color: white;
+  position: relative;
+  top: -10px;
 }
-.whatMakesUsExceptional-Container h2{
-    text-align: center;
-    padding-top: 1em;
-    font-size: 6em;
+.whatMakesUsExceptional-Container h2 {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 6em;
 }
-.whatMakesUsExceptional-Container p{
-    text-align: center;
-    padding-top: 2em;
-    padding-left: 11em;
-    padding-right: 12em;
-    font-size: 1.5em; 
+.whatMakesUsExceptional-Container p {
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 11em;
+  padding-right: 12em;
+  font-size: 1.5em;
 }
-.whatMakesUsExceptional-Container h3{
-    text-align: center;
-    padding-top:1em;
-    font-weight: 600;
-    font-size: 2.5em;
+.whatMakesUsExceptional-Container h3 {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: 600;
+  font-size: 2.5em;
 }
-.latest-Container{
-    width: 100%;
-    height: 27em;
-    display: flex;
-    flex: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
+.latest-Container {
+  width: 100%;
+  height: 27em;
+  display: flex;
+  flex: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-.latest-item{
-    width: 25%;
-    height:30%;
-    margin: 2em;
-    padding-left: 2em;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.latest-item {
+  width: 25%;
+  height: 30%;
+  margin: 2em;
+  padding-left: 2em;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.latest-item p{
-    text-align: center;
-    margin-top: 1em;
+.latest-item p {
+  text-align: center;
+  margin-top: 1em;
 }
-.newAbout{
-    width: auto;
-    height: 300%;
-    border-radius: 5%;
+.newAbout {
+  width: auto;
+  height: 300%;
+  border-radius: 5%;
 }
-.othersRow{
-    display: flex;
-    flex: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
+.othersRow {
+  display: flex;
+  flex: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-.vision-item{
-    background-image: url("/Images/image_15.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30em;
-    height: 35em;
-    margin-left: 6em;
-    margin-bottom: 1em;
+.vision-item {
+  background-image: url("/Images/image_15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30em;
+  height: 35em;
+  margin-left: 6em;
+  margin-bottom: 1em;
 }
-.vision-item h3{
-    font-size: 1.5em;
-    font-weight: 500;
-    position: relative;
-    top: 11em;
-    left: 1.2em;
+.vision-item h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: 11em;
+  left: 1.2em;
 }
-.vision-item p{
-    position: relative;
-    top: 18em;
-    padding-left: 1em;
-    padding-right: 1em;
-    
+.vision-item p {
+  position: relative;
+  top: 18em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-.mission-item{
-    background-image: url("/Images/image 16.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30em;
-    height: 35em;
-    margin-left: 6em;
-    margin-bottom: 1em;
+.mission-item {
+  background-image: url("/Images/image 16.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30em;
+  height: 35em;
+  margin-left: 6em;
+  margin-bottom: 1em;
 }
-.mission-item h3{
-    font-size: 1.5em;
-    font-weight: 500;
-    position: relative;
-    top: 11em;
-    left: 1.2em;
+.mission-item h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: 11em;
+  left: 1.2em;
 }
-.mission-item p{
-    position: relative;
-    top: 18em;
-    padding-left: 1em;
-    padding-right: 1em;
-    
+.mission-item p {
+  position: relative;
+  top: 18em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-.health-item{
-    background-image: url("/Images/Health_Container_1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30em;
-    height: 38em;
-    margin-top: 4em;
+.health-item {
+  background-image: url("/Images/Health_Container_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30em;
+  height: 38em;
+  margin-top: 4em;
 }
-.health-item h3{
-    font-size: 1.5em;
-    font-weight: 500;
-    position: relative;
-    top: 12.2em;
-    left: 1.2em;
+.health-item h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: 12.2em;
+  left: 1.2em;
 }
-.health-item p{
-    position: relative;
-    top: 19em;
-    padding-left: 1em;
-    padding-right: 1em;
-    
+.health-item p {
+  position: relative;
+  top: 19em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 /* -------------------------------------------Dashboard Page------------------------------------------------------- */
-#dashboard-cover{
-    background-image: url("/Images/dashboard-cover-min.jpg");
-    width: 100%;
-    height:95vh;
-    background-size:cover;
-    background-repeat: no-repeat;
+#dashboard-cover {
+  background-image: url("/Images/dashboard-cover-min.jpg");
+  width: 100%;
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#bodyColor{
-    background-color: #272D43;
+#bodyColor {
+  background-color: #272d43;
 }
-.dashboard-row{
-    display: flex;
-    flex: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
+.dashboard-row {
+  display: flex;
+  flex: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-.dashboard-item{
-    width: 40%;
-    height: 27em;
-    background-color: #0F143C;
-    border-radius: 50px;
-    margin-top: 2em;
-    margin-left: 2em;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+.dashboard-item {
+  width: 40%;
+  height: 27em;
+  background-color: #0f143c;
+  border-radius: 50px;
+  margin-top: 2em;
+  margin-left: 2em;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-.dashboard-item img{
-    position: relative;
-    top: 4em;
-    left: 17em;
+.dashboard-item img {
+  position: relative;
+  top: 4em;
+  left: 17em;
 }
-.dashboard-item h2{
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    position: relative;
-    top: 2.1em;
+.dashboard-item h2 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  top: 2.1em;
 }
-.dashboard-item input{
-    position: relative;
-    top: 5em;
-    left:9em;
-    padding-top:5px;
-    color: white;
-    font-size: 18px;
+.dashboard-item input {
+  position: relative;
+  top: 5em;
+  left: 9em;
+  padding-top: 5px;
+  color: white;
+  font-size: 18px;
 }
-.dashboard-item button{
-    position: relative;
-    top: 7.8em;
-    left: 16em;
-    width: 7em;
-    height:3em;
-    border-radius: 10px;
-    border: none;
-    background-color: #272D43;
-    color: white;
-
+.dashboard-item button {
+  position: relative;
+  top: 7.8em;
+  left: 16em;
+  width: 7em;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  background-color: #272d43;
+  color: white;
 }
-.dashboard-item input[name="removeName"]{
-    border: none;
-    border-radius: 10px;
-    width: 18em;
-    height: 2.8em;
-    position: relative;
-    top: 4em;
-    left: 8em;
-
+.dashboard-item input[name="removeName"] {
+  border: none;
+  border-radius: 10px;
+  width: 18em;
+  height: 2.8em;
+  position: relative;
+  top: 4em;
+  left: 8em;
 }
 
 /*--------------------------------------Eiffel Tower page---------------------------------------------------*/
 
 #packagesCoverEiffel {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionEiffel {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.pContainer1Eiffel {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+.greenPart {
+  width: 100%;
+  height: 100em;
+  background-color: #283a2c;
 }
-
-#pCaptionEiffel {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+.green-first-container {
+  width: 100%;
+  height: 30em;
+  display: flex;
+  flex: wrap;
 }
-
-#pImageContainerEiffel {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+.caption {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
-
-#pDesContainerEiffel {
-    position: absolute;
-    width: 45%;
-    height: 100%;
-    right: 2%;
-    top: 133%;
-    border-radius: 20px;
+.map {
+  position: relative;
+  width: 50%;
+  height: 100em;
+  border-radius: 20px;
+  padding-left: 3em;
 }
-
-/* #pDesContainerEiffel {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 123%;
-    border-radius: 20px;
-} */
-
-#pDesCaptionEiffel {
-    margin-top: 0%;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+.descriptionContainer {
+  width: 50%;
+  height: 30em;
+  font-size: 18px;
+  color: white;
+  padding: 0% 10%;
 }
-
-#pHighlightsContainerEiffel {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 230%;
-    border-radius: 10px;
+.Highlight-Container {
+  padding: 10%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex: wrap;
 }
-
-#pHighlightsCaptionEiffel {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+.Trip-Highlights-Container {
+  width: 40%;
+  height: 20em;
+  margin-right: 8em;
 }
-
-#pHrEiffel {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+.Highlight-Heading {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
-
-#pHighlightsMiniContainerEiffel {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+.divideLine {
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
-
-#pIncludedContainerEiffel {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 230%;
-    border-radius: 10px;
+.Highlight-subContainer {
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 15em;
+  left: 5%;
+  border-radius: 10px;
+  opacity: 0.4;
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
-
-#pIncludedCaptionEiffel {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+.packageGalleryContainer {
+  width: 100%;
+  height: 85em;
 }
-
-#pHr2Eiffel {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+.Gallery-Heading {
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
-
-#pIncludedMiniContainerEiffel {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+.galleryContainer {
+  width: 80%;
+  height: 35em;
+  margin-left: 12%;
+  display: flex;
+  flex: wrap;
 }
-
-#highlightsListEiffel {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+.rowImage1 {
+  width: 25em;
+  height: 30em;
+  margin-right: 5%;
+  border-radius: 20px;
 }
-
-#includedListEiffel {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+.rowImage2 {
+  width: 20%;
+  height: 15em;
+  margin-right: 5%;
+  border-radius: 20px;
 }
-
-#pContainer2Eiffel {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+.rowImage3 {
+  width: 35%;
+  height: 40em;
+  border-radius: 20px;
 }
-
-#pCaption2Eiffel {
-    /* margin-top: 9%; */
-    /* top: 5%; */
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+.rowImage4 {
+  width: 25%;
+  height: 28em;
+  position: relative;
+  bottom: 15em;
+  right: 1em;
 }
-
-#pGalleryImg1Eiffel {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 330%;
-    border-radius: 20px;
+.rowImage5 {
+  width: 36%;
+  height: 22em;
+  position: relative;
+  top: 8em;
 }
-
-#pGalleryImg2Eiffel {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 383%;
-    border-radius: 20px;
+.rowImage6 {
+  width: 28%;
+  height: 15em;
+  border-radius: 50px;
+  position: relative;
+  left: 32%;
+  bottom: 52%;
 }
-
-#pGalleryImg3Eiffel {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 330%;
-    border-radius: 20px;
-}
-
-#pGalleryImg4Eiffel {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 365%;
-    border-radius: 20px;
-}
-
-#pGalleryImg5Eiffel {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 418%;
-    border-radius: 20px;
-}
-
-#pGalleryImg6Eiffel {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 330%;
-    border-radius: 20px;
-}
-
-#pGalleryImg7Eiffel {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 413%;
-    border-radius: 20px;
+.registerSection {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: darkgray;
 }
 
 /*--------------------------------------End of Eiffel Tower page---------------------------------------------------*/
@@ -2333,230 +2186,226 @@ body {
 /*--------------------------------------Great Wall of China page---------------------------------------------------*/
 
 #packagesCoverChina {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionChina {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1China {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionChina {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerChina {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerChina {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionChina {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerChina {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 230%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 230%;
+  border-radius: 10px;
 }
 
 #pHighlightsCaptionChina {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrChina {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerChina {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerChina {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 230%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 230%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionChina {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2China {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerChina {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListChina {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListChina {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2China {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2China {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1China {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 320%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 320%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2China {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 375%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 375%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3China {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 320%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 320%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4China {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 356%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 356%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5China {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 410%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 410%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6China {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 320%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 320%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7China {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 403%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 403%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Great Wall of China page---------------------------------------------------*/
@@ -2564,230 +2413,226 @@ body {
 /*--------------------------------------Tower of Pisa page---------------------------------------------------*/
 
 #packagesCoverPisa {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionPisa {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Pisa {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionPisa {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerPisa {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerPisa {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionPisa {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerPisa {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pHighlightsCaptionPisa {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrPisa {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerPisa {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerPisa {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionPisa {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Pisa {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerPisa {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListPisa {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListPisa {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Pisa {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Pisa {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Pisa {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Pisa {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Pisa {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Pisa {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Pisa {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Pisa {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Pisa {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Tower of Pisa page---------------------------------------------------*/
@@ -2795,230 +2640,226 @@ body {
 /*--------------------------------------Colombo page---------------------------------------------------*/
 
 #packagesCoverColombo {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionColombo {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Colombo {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionColombo {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerColombo {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerColombo {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionColombo {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerColombo {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionColombo{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionColombo {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrColombo {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerColombo {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerColombo {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionColombo {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Colombo {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerColombo {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListColombo {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListColombo {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Colombo {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Colombo {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Colombo {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Colombo {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Colombo {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Colombo {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Colombo {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Colombo {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Colombo {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Colombo page---------------------------------------------------*/
@@ -3026,232 +2867,228 @@ body {
 /*--------------------------------------Kandalama page---------------------------------------------------*/
 
 #packagesCoverKandalama {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionKandalama {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Kandalama {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionKandalama {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerKandalama {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerKandalama {
-    position: absolute;
-    width: 45%;
-    height: 100%;
-    right: 2%;
-    top: 128%;
-    border-radius: 20px;
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  right: 2%;
+  top: 128%;
+  border-radius: 20px;
 }
 
 #pDesCaptionKandalama {
-    margin-top: 0%;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerKandalama {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pHighlightsCaptionKandalama {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrKandalama {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerKandalama {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerKandalama {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionKandalama {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Kandalama {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerKandalama {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListKandalama {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListKandalama {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Kandalama {
-    top: 10%;
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  top: 10%;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Kandalama {
-    top: 10%;
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  top: 10%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Kandalama {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 350%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 350%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Kandalama {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 403%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 403%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Kandalama {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 350%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 350%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Kandalama {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 385%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 385%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Kandalama {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 438%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 438%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Kandalama {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 350%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 350%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Kandalama {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 432%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 432%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Kandalama page---------------------------------------------------*/
@@ -3259,230 +3096,226 @@ body {
 /*--------------------------------------Sigiriya page---------------------------------------------------*/
 
 #packagesCoverSigiriya {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionSigiriya {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Sigiriya {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionSigiriya {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerSigiriya {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerSigiriya {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionSigiriya {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerSigiriya {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pHighlightsCaptionSigiriya {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrSigiriya {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerSigiriya {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerSigiriya {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionSigiriya {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Sigiriya {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerSigiriya {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListSigiriya {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListSigiriya {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Sigiriya {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Sigiriya {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Sigiriya {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Sigiriya {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Sigiriya {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Sigiriya {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Sigiriya {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Sigiriya {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Sigiriya {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Sigiriya page---------------------------------------------------*/
@@ -3490,230 +3323,226 @@ body {
 /*--------------------------------------Mirissa page---------------------------------------------------*/
 
 #packagesCoverMirissa {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionMirissa {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Mirissa {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionMirissa {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerMirissa {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerMirissa {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionMirissa {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerMirissa {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionMirissa{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionMirissa {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrMirissa {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerMirissa {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerMirissa {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionMirissa {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Mirissa {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerMirissa {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListMirissa {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListMirissa {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Mirissa {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Mirissa {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Mirissa {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Mirissa {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Mirissa {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Mirissa {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Mirissa {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Mirissa {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Mirissa {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Mirissa page---------------------------------------------------*/
@@ -3721,230 +3550,226 @@ body {
 /*--------------------------------------Pinnawala page---------------------------------------------------*/
 
 #packagesCoverPinnawala {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionPinnawala {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Pinnawala {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionPinnawala {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerPinnawala {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerPinnawala {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionPinnawala {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
 #pHighlightsContainerPinnawala {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionPinnawala{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionPinnawala {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrPinnawala {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerPinnawala {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerPinnawala {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionPinnawala {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Pinnawala {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerPinnawala {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListPinnawala {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListPinnawala {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Pinnawala {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Pinnawala {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Pinnawala {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Pinnawala {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Pinnawala {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Pinnawala {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Pinnawala {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Pinnawala {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Pinnawala {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Pinnawala page---------------------------------------------------*/
@@ -3952,230 +3777,226 @@ body {
 /*--------------------------------------Salar De Uyuni page---------------------------------------------------*/
 
 #packagesCoverSalar {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionSalar {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Salar {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionSalar {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerSalar {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerSalar {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionSalar {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerSalar {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pHighlightsContainerSalar {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionSalar{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionSalar {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrSalar {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerSalar {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerSalar {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionSalar {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Salar {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerSalar {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListSalar {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListSalar {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Salar {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Salar {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Salar {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Salar {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Salar {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Salar {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Salar {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Salar {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Salar {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Salar De Uyuni page---------------------------------------------------*/
@@ -4183,59 +4004,57 @@ body {
 /*--------------------------------------The Great Barrier Reef page---------------------------------------------------*/
 
 #packagesCoverReef {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionReef {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Reef {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionReef {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerReef {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
-
 #pDesContainerReef {
-    position: absolute;
-    width: 45%;
-    height: 100%;
-    right: 2%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  right: 2%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 /* #pDesContainerReef {
@@ -4248,407 +4067,399 @@ body {
 } */
 
 #pDesCaptionReef {
-    margin-top: 0%;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerReef {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pHighlightsContainerReef {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionReef{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionReef {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrReef {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerReef {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerReef {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionReef {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Reef {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerReef {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListReef {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListReef {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Reef {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Reef {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Reef {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 360%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 360%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Reef {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 412%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 412%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Reef {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 360%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 360%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Reef {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 396%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 396%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Reef {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 448%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 448%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Reef {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 360%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 360%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Reef {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 441.5%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 441.5%;
+  border-radius: 20px;
 }
-
 
 /*--------------------------------------End of The Great Barrier Reef page---------------------------------------------------*/
 
 /*--------------------------------------The Palawan Island page---------------------------------------------------*/
 
 #packagesCoverPalawan {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionPalawan {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Palawan {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionPalawan {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerPalawan {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerPalawan {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 #pDesCaptionPalawan {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerPalawan {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+#pHighlightsContainerPalawan {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionPalawan{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionPalawan {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrPalawan {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerPalawan {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerPalawan {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionPalawan {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Palawan {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerPalawan {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListPalawan {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListPalawan {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Palawan {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Palawan {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Palawan {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Palawan {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Palawan {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Palawan {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Palawan {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Palawan {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Palawan {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of The Palawan Island page---------------------------------------------------*/
@@ -4656,230 +4467,226 @@ body {
 /*--------------------------------------Statue of Liberty page---------------------------------------------------*/
 
 #packagesCoverLiberty {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionLiberty {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Liberty {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionLiberty {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerLiberty {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerLiberty {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 #pDesCaptionLiberty {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerLiberty {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+#pHighlightsContainerLiberty {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionLiberty{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionLiberty {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrLiberty {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerLiberty {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerLiberty {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionLiberty {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Liberty {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerLiberty {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListLiberty {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListLiberty {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Liberty {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Liberty {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Liberty {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Liberty {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Liberty {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Liberty {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Liberty {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Liberty {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Liberty {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Statue of Liberty page---------------------------------------------------*/
@@ -4887,230 +4694,226 @@ body {
 /*--------------------------------------Machu Picchu page---------------------------------------------------*/
 
 #packagesCoverMachu {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionMachu {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Machu {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionMachu {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerMachu {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerMachu {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 #pDesCaptionMachu {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerMachu {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 240%;
-    border-radius: 10px;
+#pHighlightsContainerMachu {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionMachu{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionMachu {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrMachu {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerMachu {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerMachu {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 240%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 240%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionMachu {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Machu {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerMachu {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListMachu {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListMachu {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Machu {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Machu {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Machu {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Machu {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Machu {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Machu {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Machu {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Machu {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Machu {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Machu Picchu page---------------------------------------------------*/
@@ -5118,230 +4921,226 @@ body {
 /*--------------------------------------The Taj Mahal page---------------------------------------------------*/
 
 #packagesCoverTaj {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionTaj {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Taj {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionTaj {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerTaj {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerTaj {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 #pDesCaptionTaj {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerTaj {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pHighlightsContainerTaj {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionTaj{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionTaj {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrTaj {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerTaj {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerTaj {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionTaj {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Taj {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerTaj {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListTaj {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListTaj {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Taj {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Taj {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Taj {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Taj {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Taj {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Taj {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Taj {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Taj {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Taj {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of The Taj Mahal page---------------------------------------------------*/
@@ -5349,230 +5148,226 @@ body {
 /*--------------------------------------Pyramids of Giza page---------------------------------------------------*/
 
 #packagesCoverGiza {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionGiza {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Giza {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionGiza {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerGiza {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerGiza {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 130%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 130%;
+  border-radius: 20px;
 }
 
 #pDesCaptionGiza {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerGiza {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pHighlightsContainerGiza {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionGiza{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionGiza {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrGiza {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerGiza {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerGiza {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionGiza {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Giza {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerGiza {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListGiza {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListGiza {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Giza {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Giza {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Giza {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Giza {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Giza {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Giza {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Giza {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Giza {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Giza {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Pyramids of Giza page---------------------------------------------------*/
@@ -5580,230 +5375,317 @@ body {
 /*--------------------------------------Niagara Falls page---------------------------------------------------*/
 
 #packagesCoverNiagara {
-    background-image: url("/Images/packages1.jpeg");
-    background-color: rgb(40, 58, 44);
-    padding-bottom: 53.5%;
-    background-size: cover;
-    /*margin-top: 0px;*/
-
+  background-image: url("/Images/packages1.jpeg");
+  background-color: rgb(40, 58, 44);
+  padding-bottom: 53.5%;
+  background-size: cover;
+  /*margin-top: 0px;*/
 }
 
 .mainCaptionNiagara {
-    position: absolute;
-    width: 100%;
-    height: 165px;
-    text-align: center;
-    top: 216px;
-    font-style: bold;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-size: 100px;
-    line-height: 115px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  top: 216px;
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pContainer1Niagara {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: #283A2C;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #283a2c;
 }
 
 #pCaptionNiagara {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 5%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5%;
 }
 
 #pImageContainerNiagara {
-    position: absolute;
-    width: 50%;
-    height: 100em;
-    left: 2%;
-    top: 140%;
-    border-radius: 20px;
+  position: absolute;
+  width: 50%;
+  height: 100em;
+  left: 2%;
+  top: 140%;
+  border-radius: 20px;
 }
 
 #pDesContainerNiagara {
-    position: absolute;
-    width: 35%;
-    height: 100%;
-    right: 10%;
-    top: 120%;
-    border-radius: 20px;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 10%;
+  top: 120%;
+  border-radius: 20px;
 }
 
 #pDesCaptionNiagara {
-    margin-top: 0%;
-    text-align: right;
-    font-size: 18px;
-    color: white;
-    padding: 13%;
-    margin-bottom: 5%;
+  margin-top: 0%;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  padding: 13%;
+  margin-bottom: 5%;
 }
 
-#pHighlightsContainerNiagara {      
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    left: 15%;
-    top: 250%;
-    border-radius: 10px;
+#pHighlightsContainerNiagara {
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  left: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
-#pHighlightsCaptionNiagara{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
-
+#pHighlightsCaptionNiagara {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHrNiagara {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pHighlightsMiniContainerNiagara {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    left: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  left: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #pIncludedContainerNiagara {
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    right: 15%;
-    top: 250%;
-    border-radius: 10px;
+  position: absolute;
+  width: 30%;
+  height: 55%;
+  right: 15%;
+  top: 250%;
+  border-radius: 10px;
 }
 
 #pIncludedCaptionNiagara {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    padding: 2.5;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 2.5;
 }
 
 #pHr2Niagara {
-    border: 2px solid #FFFFFF;
-    margin-top: 1%;
-    width: 100%;
+  border: 2px solid #ffffff;
+  margin-top: 1%;
+  width: 100%;
 }
 
 #pIncludedMiniContainerNiagara {
-    background-color: #C4C4C4;
-    /*position: absolute;*/
-    width: 100%;
-    height: 52%;
-    right: 5%;
-    /*top: 40%;*/
-    border-radius: 10px;
-    /*padding: 10%;*/
-    opacity: 0.4;
-
+  background-color: #c4c4c4;
+  /*position: absolute;*/
+  width: 100%;
+  height: 52%;
+  right: 5%;
+  /*top: 40%;*/
+  border-radius: 10px;
+  /*padding: 10%;*/
+  opacity: 0.4;
 }
 
 #highlightsListNiagara {
-    text-align: left;
-    font-size: 15px;
-    color: #000000;
-    padding-left: 13%;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  color: #000000;
+  padding-left: 13%;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #includedListNiagara {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 15%;
-    color: #000000;
-    list-style-image: url("/Images/packagesArrow.png");
+  text-align: left;
+  font-size: 15px;
+  padding-left: 15%;
+  color: #000000;
+  list-style-image: url("/Images/packagesArrow.png");
 }
 
 #pContainer2Niagara {
-    width: 100%;
-    padding-bottom: 60%;
-    background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #ffffff;
 }
 
 #pCaption2Niagara {
-    text-align: center;
-    font-size: 40px;
-    color: #000000;
-    padding: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  padding: 5%;
 }
 
 #pGalleryImg1Niagara {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    left: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 48%;
+  left: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg2Niagara {
-    position: absolute;
-    width: 25%;
-    height: 55%;
-    left: 5%;
-    top: 398%;
-    border-radius: 20px;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 5%;
+  top: 398%;
+  border-radius: 20px;
 }
 
 #pGalleryImg3Niagara {
-    position: absolute;
-    width: 20%;
-    height: 33%;
-    left: 38%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 33%;
+  left: 38%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg4Niagara {
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 38%;
-    top: 380%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 49%;
+  left: 38%;
+  top: 380%;
+  border-radius: 20px;
 }
 
 #pGalleryImg5Niagara {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 38%;
-    top: 433%;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 38%;
+  top: 433%;
+  border-radius: 20px;
 }
 
 #pGalleryImg6Niagara {
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    right: 5%;
-    top: 345%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  right: 5%;
+  top: 345%;
+  border-radius: 20px;
 }
 
 #pGalleryImg7Niagara {
-    position: absolute;
-    width: 30%;
-    height: 27%;
-    right: 5%;
-    top: 427%;
-    border-radius: 20px;
+  position: absolute;
+  width: 30%;
+  height: 27%;
+  right: 5%;
+  top: 427%;
+  border-radius: 20px;
 }
 
 /*--------------------------------------End of Niagara Falls page---------------------------------------------------*/
+.cus-btn {
+  left: 48%;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-3 {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}

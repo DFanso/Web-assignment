@@ -23,9 +23,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./social-media-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./social-media-icons.css" />
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 
 <body>
@@ -45,18 +48,23 @@
         <h1 class="mainCaptionColombo">We Give the Best for You</h1>
     </section>
 
-    <div class="pContainer1Colombo">
-        <div id="pCaptionContainerColombo">
-            <p id="pCaptionColombo">Colombo</br>Sri Lanka</p>
+    
+    <section class="greenPart">
+      <!-- Description -->
+      <p class="caption">Colombo</br>Sri Lanka</p>
+      <div class="green-first-container">
+        <div class="map">
+          <iframe
+            width="100%"
+            height="37%"
+            src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#10.45/6.8367/79.9753"
+            title="Basic"
+            style="border: none"
+          ></iframe>
         </div>
-        <div id="pImageContainerColombo">
-            <iframe width='100%' height='37%'
-                src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#10.45/6.8367/79.9753"
-                title="Basic" style="border:none;"></iframe>
-        </div>
-        <div id="pDesContainerColombo">
-            <p id="pDesCaptionColombo">
-                Colombo, the entrance to Sri Lanka's wonders, has a strong colonial legacy and is a melting pot of
+        <div class="descriptionContainer">
+          <p>
+          Colombo, the entrance to Sri Lanka's wonders, has a strong colonial legacy and is a melting pot of
                 races, religions, and civilizations. It's a city of contrasts, with gleaming hotels and sophisticated
                 office towers coexisting with magnificent red-tiled colonial-era structures. Aromatic spices, colorful
                 silks, cottons, and fresh fruit and vegetables abound in the bustling street markets. Explore Colombo's
@@ -64,64 +72,102 @@
                 sights such as Fort Station, the Red Mosque, and the Khan clock tower. Plunge into Colombo's fascinating
                 street food scene, dine like a native, and become immersed in the spinning Pettah Bazaar's sights,
                 sounds, and fragrances.
-            </p>
+          </p>
         </div>
-        <div id="pHighlightsContainerColombo">
-            <p id="pHighlightsCaptionColombo">Trip Highlights</p>
-            <hr id="pHrColombo">
-            <div id="pHighlightsMiniContainerColombo">
-                <ul id="highlightsListColombo">
-                    <br>
-                    <li>Walking tour around the city</li><br>
+      </div>
+      <!-- Highlights -->
+      <div class="Highlight-Container">
+        <!-- Trip Highlights -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">Trip Highlights</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Walking tour around the city</li><br>
                     <li>Activities at the Royal Colombo Golf Club</li><br>
                     <li>Ride around in a tuk-tuk</li><br>
                     <li>Explore Street Food</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-        <div id="pIncludedContainerColombo">
-            <p id="pIncludedCaptionColombo">What's Included</p>
-            <hr id="pHr2Colombo">
-            <div id="pIncludedMiniContainerColombo">
-                <ul id="includedListColombo">
-                    <br>
-                    <li>Hotels with a great sea view</li><br>
+        <!-- What Includes -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">What's Included</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Hotels with a great sea view</li><br>
                     <li>Night Cycling City Tour</li><br>
                     <li>Free Sunset Cocktails</li><br>
                     <li>Exploring religious and historical places</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-
-    </div>
-
-    <div id="pContainer2Colombo">
-        <div id="pCaptionContainer2Colombo">
-            <p id="pCaption2Colombo">Gallery</p>
+      </div>
+    </section>
+    <section class="packageGalleryContainer">
+      <p class="Gallery-Heading">Gallery</p>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/colombo/colombo1.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg1Colombo" src="/Images/LocationImages/colombo/colombo1.png">
+        <div class="rowImage2">
+          <img
+            src="/Images/LocationImages/colombo/colombo4.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg2Colombo" src="/Images/LocationImages/colombo/colombo2.png">
+        <div class="rowImage3">
+          <img
+            src="/Images/LocationImages/colombo/colombo6.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg3Colombo" src="/Images/LocationImages/colombo/colombo3.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/colombo/colombo2.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg4Colombo" src="/Images/LocationImages/colombo/colombo4.png">
+        <div class="rowImage4">
+          <img
+            src="/Images/LocationImages/colombo/colombo3.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg5Colombo" src="/Images/LocationImages/colombo/colombo5.png">
+        <div class="rowImage5">
+          <img
+            src="/Images/LocationImages/colombo/colombo7.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg6Colombo" src="/Images/LocationImages/colombo/colombo6.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage6">
+          <img src="/Images/LocationImages/colombo/colombo5.png" width="100%" height="100%"/>
         </div>
-        <div>
-            <img id="pGalleryImg7Colombo" src="/Images/LocationImages/colombo/colombo7.png">
-        </div>
-    </div>
-
+      </div>
+    </section>
+    <section class="registerSection">
+      <p>If Your Interested Book Your Ticket Now!</p>
+      <br />
+    </section>
+    <button href="contactus.html" class="cus-btn btn-3">
+      <span>Register Now</span>
+    </button>
     <section id="researcher">
         <div class="reasearch-container">
             <div class="rrow">

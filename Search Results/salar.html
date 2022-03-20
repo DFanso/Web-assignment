@@ -23,9 +23,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./social-media-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./social-media-icons.css" />
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 
 <body>
@@ -45,18 +48,23 @@
         <h1 class="mainCaptionSalar">We Give the Best for You</h1>
     </section>
 
-    <div class="pContainer1Salar">
-        <div id="pCaptionContainerSalar">
-            <p id="pCaptionSalar">Salar De Uyuni</br>Bolivia</p>
+    
+    <section class="greenPart">
+      <!-- Description -->
+      <p class="caption">Salar De Uyuni</br>Bolivia</p>
+      <div class="green-first-container">
+        <div class="map">
+          <iframe
+            width="100%"
+            height="37%"
+            src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#16/-20.46309/-66.823654"
+            title="Basic"
+            style="border: none"
+          ></iframe>
         </div>
-        <div id="pImageContainerSalar">
-            <iframe width='100%' height='37%'
-                src="https://api.mapbox.com/styles/v1/chethakasl/cl0gvlr0400xl16kd9hmurjp0.html?title=view&access_token=pk.eyJ1IjoiY2hldGhha2FzbCIsImEiOiJjbDBndmlpcHYwMmtyM2lueW5tcWRoenBwIn0.kdl7_icmw0zii85l8IxrQg&zoomwheel=true&fresh=true#16/-20.46309/-66.823654"
-                title="Basic" style="border:none;"></iframe>
-        </div>
-        <div id="pDesContainerSalar">
-            <p id="pDesCaptionSalar">
-                With an area of nearly 10,000 square kilometers (3,900 square miles), the Salar de Uyuni (or "Salar de Tunupa") is the
+        <div class="descriptionContainer">
+          <p>
+          With an area of nearly 10,000 square kilometers (3,900 square miles), the Salar de Uyuni (or "Salar de Tunupa") is the
                 world's largest salt flat, or playa. It is located in the Daniel Campos Province of Potos, Bolivia, near the Andes crest
                 at an elevation of 3,656 meters (11,995 feet) above sea level. 
                 The Salar was formed by changes in many prehistoric lakes that existed roughly forty thousand years ago but had all
@@ -65,64 +73,102 @@
                 pool of brine that is particularly high in lithium. The Salar is perfect for calibrating the altimeters of Earth
                 observation satellites due to its enormous area, bright skies, and exceptionally flat surface. After rain, a thin layer
                 of dead calm water converts the flat into the world's largest mirror, measuring 129 kilometers (80 miles).
-            </p>
+          </p>
         </div>
-        <div id="pHighlightsContainerSalar">
-            <p id="pHighlightsCaptionSalar">Trip Highlights</p>
-            <hr id="pHrSalar">
-            <div id="pHighlightsMiniContainerSalar">
-                <ul id="highlightsListSalar">
-                    <br>
-                    <li>Visit the "Eye of the Salt"</li><br>
+      </div>
+      <!-- Highlights -->
+      <div class="Highlight-Container">
+        <!-- Trip Highlights -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">Trip Highlights</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Visit the "Eye of the Salt"</li><br>
                     <li>Visit the Dakar Monument</li><br>
                     <li>Planting your country flag</li><br>
                     <li>Taking optical illusion shots</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-        <div id="pIncludedContainerSalar">
-            <p id="pIncludedCaptionSalar">What's Included</p>
-            <hr id="pHr2Salar">
-            <div id="pIncludedMiniContainerSalar">
-                <ul id="includedListSalar">
-                    <br>
-                    <li>Visiting the World's First Salt Hotel</li><br>
+        <!-- What Includes -->
+        <div class="Trip-Highlights-Container">
+          <p class="Highlight-Heading">What's Included</p>
+          <hr class="divideLine" />
+          <div class="Highlight-subContainer">
+            <ul>
+              <br />
+              <li>Visiting the World's First Salt Hotel</li><br>
                     <li>Barbecue on the salt flat</li><br>
                     <li>Riding bicycles on the salt flat</li><br>
                     <li>Watching the amazing sunset from the salt flat</li><br>
-                </ul>
-            </div>
+            </ul>
+          </div>
         </div>
-
-    </div>
-
-    <div id="pContainer2Salar">
-        <div id="pCaptionContainer2Salar">
-            <p id="pCaption2Salar">Gallery</p>
+      </div>
+    </section>
+    <section class="packageGalleryContainer">
+      <p class="Gallery-Heading">Gallery</p>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/salar/salar2.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg1Salar" src="/Images/LocationImages/salar/salar1.png">
+        <div class="rowImage2">
+          <img
+            src="/Images/LocationImages/salar/salar5.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg2Salar" src="/Images/LocationImages/salar/salar2.png">
+        <div class="rowImage3">
+          <img
+            src="/Images/LocationImages/salar/salar6.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg3Salar" src="/Images/LocationImages/salar/salar3.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage1">
+          <img
+            src="/Images/LocationImages/salar/salar1.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg4Salar" src="/Images/LocationImages/salar/salar4.png">
+        <div class="rowImage4">
+          <img
+            src="/Images/LocationImages/salar/salar4.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg5Salar" src="/Images/LocationImages/salar/salar5.png">
+        <div class="rowImage5">
+          <img
+            src="/Images/LocationImages/salar/salar3.png"
+            width="100%"
+            height="100%"
+          />
         </div>
-        <div>
-            <img id="pGalleryImg6Salar" src="/Images/LocationImages/salar/salar6.png">
+      </div>
+      <div class="galleryContainer">
+        <div class="rowImage6">
+          <img src="/Images/LocationImages/salar/salar7.png" width="100%" height="100%" />
         </div>
-        <div>
-            <img id="pGalleryImg7Salar" src="/Images/LocationImages/salar/salar7.png">
-        </div>
-    </div>
-
+      </div>
+    </section>
+    <section class="registerSection">
+      <p>If Your Interested Book Your Ticket Now!</p>
+      <br />
+    </section>
+    <button href="contactus.html" class="cus-btn btn-3">
+      <span>Register Now</span>
+    </button>
     <section id="researcher">
         <div class="reasearch-container">
             <div class="rrow">
