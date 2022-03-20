@@ -40,16 +40,16 @@
         <div class="ul-divi">
             <ul class="navbar">
                 <div class="NavAnmate">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                 </div>
                 <div class="NavAnmate">
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="../about.html">About</a></li>
                 </div>
                 <div class="NavAnmate">
-                    <li><a href="contactus.html">Contact us</a></li>
+                    <li><a href="../contactus.html">Contact us</a></li>
                 </div>
                 <div class="NavAnmate">
-                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="../Services.html">Services</a></li>
                 </div>
             </ul>
         </div>
