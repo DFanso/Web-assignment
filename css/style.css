@@ -1094,7 +1094,7 @@ iframe {
 
 /*--------------------------------------Services page---------------------------------------------------*/
 .SHomeCover {
-  background-image: url("../Images/beach.jpg");
+  background-image: url("/Images/beach.jpg");
   background-color: rgb(40, 58, 44);
   height: 100vh;
   background-size: cover;
@@ -1164,7 +1164,7 @@ iframe {
 }
 .familyVacationPackage {
   /* service1 */
-  background-image: url("../Images/family1.png");
+  background-image: url("/Images/family1.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 30em;
@@ -1181,7 +1181,7 @@ iframe {
 }
 .privateTravelPackage {
   /* service3 */
-  background-image: url("../Images/privATE.png");
+  background-image: url("/Images/privATE.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 30%;
@@ -1198,7 +1198,7 @@ iframe {
 }
 .friendsVacationPackage {
   /* service1 */
-  background-image: url("../Images/friends.png");
+  background-image: url("/Images/friends.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 30em;
@@ -1215,7 +1215,7 @@ iframe {
 .coupleVacationPackage {
   position: absolute;
   margin-top: 25%;
-  background-image: url("../Images/couple.png");
+  background-image: url("/Images/couple.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 30em;
@@ -1611,7 +1611,7 @@ body {
 /*--------------------------------------Packages page---------------------------------------------------*/
 
 #packagesCover {
-  background-image: url("/Images/packages1.jpeg");
+  background-image: url("../Images/packages1.jpeg");
   background-color: rgb(40, 58, 44);
   padding-bottom: 53.5%;
   background-size: cover;
@@ -1746,14 +1746,14 @@ body {
   font-size: 15px;
   color: #000000;
   padding-left: 0;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #includedList {
   text-align: center;
   font-size: 15px;
   color: #000000;
-  list-style-image: url("/Images/packagesArrow.png");
+  list-style-image: url("../Images/packagesArrow.png");
 }
 
 #pContainer2 {
